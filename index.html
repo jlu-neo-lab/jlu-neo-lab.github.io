@@ -47,11 +47,11 @@
             <div class="logo">Neo Lab</div>
             <div class="logo-subtitle" data-en="Neural Optimization Lab" data-zh="神经优化实验室">Neural Optimization Lab</div>
         </a>
-        <div class="menu-toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+        <button class="hamburger" id="hamburger-menu" aria-label="Toggle navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
         <ul class="nav-links">
             <li><a href="#" class="active">Team</a></li>
             <li><a href="/pages/research.html">Research</a></li>
@@ -308,6 +308,9 @@
 
     </main>
 
+    <!-- 移动端菜单遮罩层 -->
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+    
     <!-- 页脚容器 -->
     <div id="footer-container"></div>
     <!-- 导入模块化JavaScript文件 -->

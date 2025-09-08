@@ -38,26 +38,75 @@ document.addEventListener('DOMContentLoaded', function() {
         window.LanguageManager.updatePageLanguage();
     }
 
-    // 移动端菜单切换
-    const menuToggle = document.getElementById('mobile-menu');
+    // 移动端汉堡菜单功能
+    initMobileMenu();
+});
+
+// 移动端菜单功能
+function initMobileMenu() {
+    const hamburger = document.getElementById('hamburger-menu');
     const navLinks = document.querySelector('.nav-links');
-
-    if (menuToggle && navLinks) {
-        menuToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            menuToggle.classList.toggle('is-active'); // 添加这行
-        });
-
-        // 点击链接后关闭菜单
-        const links = navLinks.querySelectorAll('a');
-        links.forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-                menuToggle.classList.remove('is-active'); // 同时也要在这里移除
-            });
+    const overlay = document.getElementById('mobile-overlay');
+    const navItems = navLinks?.querySelectorAll('a');
+    
+    if (!hamburger || !navLinks) return;
+    
+    // 切换菜单状态
+    function toggleMenu() {
+        const isActive = navLinks.classList.contains('active');
+        
+        if (isActive) {
+            closeMenu();
+        } else {
+            openMenu();
+        }
+    }
+    
+    // 打开菜单
+    function openMenu() {
+        hamburger.classList.add('active');
+        navLinks.classList.add('active');
+        if (overlay) overlay.classList.add('active');
+        document.body.style.overflow = 'hidden'; // 防止背景滚动
+    }
+    
+    // 关闭菜单
+    function closeMenu() {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+        if (overlay) overlay.classList.remove('active');
+        document.body.style.overflow = ''; // 恢复滚动
+    }
+    
+    // 事件监听
+    hamburger.addEventListener('click', toggleMenu);
+    
+    // 点击遮罩层关闭菜单
+    if (overlay) {
+        overlay.addEventListener('click', closeMenu);
+    }
+    
+    // 点击导航链接关闭菜单
+    if (navItems) {
+        navItems.forEach(item => {
+            item.addEventListener('click', closeMenu);
         });
     }
-});
+    
+    // ESC键关闭菜单
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+            closeMenu();
+        }
+    });
+    
+    // 窗口大小改变时关闭菜单（防止桌面端显示移动端菜单）
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && navLinks.classList.contains('active')) {
+            closeMenu();
+        }
+    });
+}
 
 // 导出初始化函数
 if (typeof module !== 'undefined' && module.exports) {

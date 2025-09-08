@@ -50,19 +50,64 @@ body {
 }
 
 /* --- 汉堡菜单样式 --- */
-.menu-toggle {
-    display: none; /* 默认隐藏 */
+.hamburger {
+    display: none; /* 桌面端隐藏 */
     flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
     cursor: pointer;
+    padding: 0;
+    z-index: 1001;
 }
 
-.menu-toggle .bar {
-    height: 3px;
-    width: 25px;
-    background-color: white;
-    margin: 4px 0;
-    transition: 0.4s;
+.hamburger:focus {
+    outline: none;
 }
+
+.hamburger-line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+/* 汉堡菜单激活状态 - 变成X */
+.hamburger.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.hamburger.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+    .hamburger.active .hamburger-line:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
+    /* 移动端菜单遮罩层 */
+    .mobile-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .mobile-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
 
 /* --- 主内容区域样式 --- */
 .main-container {
@@ -153,31 +198,54 @@ body {
 /* 当屏幕宽度小于 768px (例如平板) */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: row; /* 保持logo和汉堡菜单在同一行 */
-        justify-content: space-between;
+        position: relative;
+        padding: 1rem 2rem;
     }
     
-    .menu-toggle {
+    .hamburger {
         display: flex; /* 在移动端显示汉堡菜单 */
     }
 
     .nav-links {
-        display: none; /* 隐藏原始导航链接 */
+        position: fixed;
+        top: 0;
+        right: -100%; /* 初始状态在屏幕右侧外 */
+        width: 300px;
+        height: 100vh;
+        background: linear-gradient(135deg, #4A55A2, #5a67d8);
         flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 70px; /* 根据你的navbar高度调整 */
-        left: 0;
-        background-color: #4A55A2;
-        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 80px;
+        transition: right 0.3s ease-in-out;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
     }
 
     .nav-links.active {
-        display: flex; /* 点击后显示 */
+        right: 0; /* 滑入屏幕 */
     }
 
     .navbar .nav-links li {
-        margin: 15px 0;
+        margin: 20px 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .navbar .nav-links a {
+        display: block;
+        padding: 15px 20px;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .navbar .nav-links a:hover,
+    .navbar .nav-links a.active {
+        background-color: rgba(255, 255, 255, 0.2);
+        transform: translateX(10px);
     }
     
     .section-title {
