@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 加载页脚组件
     const footerContainer = document.getElementById('footer-container');
     if (footerContainer && window.ComponentLoader) {
-        window.ComponentLoader.loadComponent('footer-container', 'pages/footer.html');
+        window.ComponentLoader.loadComponent('footer-container', '/pages/footer.html');
     }
     
     // 初始化头像点击功能
