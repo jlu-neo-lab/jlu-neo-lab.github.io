@@ -39,14 +39,14 @@ jlu-neo-lab.github.io/
 
 ### 1. 本地运行
 
-在浏览器中访问 `https://jlu-neo-alb.github.io`
+在浏览器中访问 `https://jlu-neo-lab.github.io`
 
 ### 2. 部署到GitHub Pages
 
 1. 将代码推送到GitHub仓库
 2. 在仓库设置中启用GitHub Pages
 3. 选择主分支作为发布源
-4. 网站将自动部署到 `https://jlu-neo-alb.github.io/jlu-neo-lab/`
+4. 网站将自动部署到 `https://jlu-neo-lab.github.io/jlu-neo-lab/`
 
 ## 数据维护指南
 
