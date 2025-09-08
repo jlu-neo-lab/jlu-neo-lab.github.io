@@ -2,8 +2,8 @@
 const newsData = {
     'team-expansion-2025': {
         title: {
-            en: 'Lambda Lab Welcomes New PhD Students in 2025',
-            zh: 'Lambda实验室2025年迎来新博士生'
+            en: 'NeO Lab Welcomes New PhD Students in 2025',
+            zh: 'NeO实验室2025年迎来新博士生'
         },
         date: '2025-01-15',
         category: {
@@ -15,8 +15,8 @@ const newsData = {
             zh: '我们很高兴迎来今年加入研究团队的新博士生。'
         },
         content: {
-            en: 'Lambda Lab is thrilled to announce the arrival of our newest PhD students for the 2025 academic year. These talented researchers bring diverse backgrounds in machine learning and optimization.',
-            zh: 'Lambda实验室很高兴宣布2025学年新博士生的到来。这些才华横溢的研究人员在机器学习和优化方面拥有不同的背景。'
+            en: 'NeO Lab is thrilled to announce the arrival of our newest PhD students for the 2025 academic year. These talented researchers bring diverse backgrounds in machine learning and optimization.',
+            zh: 'NeO实验室很高兴宣布2025学年新博士生的到来。这些才华横溢的研究人员在机器学习和优化方面拥有不同的背景。'
         }
     },
     'kdd-paper-accepted': {
@@ -49,8 +49,8 @@ const newsData = {
             zh: '合作伙伴'
         },
         summary: {
-            en: 'Lambda Lab partners with leading technology companies.',
-            zh: 'Lambda实验室与领先的科技公司合作。'
+            en: 'NeO Lab partners with leading technology companies.',
+            zh: 'NeO实验室与领先的科技公司合作。'
         },
         content: {
             en: 'We are excited to announce new partnerships with industry leaders in manufacturing and logistics.',
@@ -87,8 +87,8 @@ const newsData = {
             zh: '基础设施'
         },
         summary: {
-            en: 'Lambda Lab has upgraded its computing infrastructure with new high-performance GPUs.',
-            zh: 'Lambda实验室升级了计算基础设施，配备了新的高性能GPU。'
+            en: 'NeO Lab has upgraded its computing infrastructure with new high-performance GPUs.',
+            zh: 'NeO实验室升级了计算基础设施，配备了新的高性能GPU。'
         },
         content: {
             en: 'We have significantly enhanced our computational capabilities with the installation of state-of-the-art GPU clusters.',
@@ -106,8 +106,8 @@ const newsData = {
             zh: '获奖信息'
         },
         summary: {
-            en: 'Several Lambda Lab students have been recognized with prestigious awards.',
-            zh: 'Lambda实验室的几名学生获得了著名奖项。'
+            en: 'Several NeO Lab students have been recognized with prestigious awards.',
+            zh: 'NeO实验室的几名学生获得了著名奖项。'
         },
         content: {
             en: 'We are proud to announce that several of our graduate students have received prestigious awards for their research excellence.',
@@ -116,8 +116,8 @@ const newsData = {
     },
     'workshop-organization': {
         title: {
-            en: 'Lambda Lab Organizes International Workshop',
-            zh: 'Lambda实验室组织国际研讨会'
+            en: 'NeO Lab Organizes International Workshop',
+            zh: 'NeO实验室组织国际研讨会'
         },
         date: '2024-11-25',
         category: {
@@ -135,8 +135,8 @@ const newsData = {
     },
     'new-funding': {
         title: {
-            en: 'Lambda Lab Receives Major Research Grant',
-            zh: 'Lambda实验室获得重大研究资助'
+            en: 'NeO Lab Receives Major Research Grant',
+            zh: 'NeO实验室获得重大研究资助'
         },
         date: '2024-11-10',
         category: {
@@ -148,8 +148,8 @@ const newsData = {
             zh: '获得下一代人工智能研究项目的大量资金。'
         },
         content: {
-            en: 'We are excited to announce that Lambda Lab has received a major research grant to advance our work in AI and optimization.',
-            zh: '我们很高兴宣布Lambda实验室获得了重大研究资助，以推进我们在人工智能和优化方面的工作。'
+            en: 'We are excited to announce that NeO Lab has received a major research grant to advance our work in AI and optimization.',
+            zh: '我们很高兴宣布NeO实验室获得了重大研究资助，以推进我们在人工智能和优化方面的工作。'
         }
     }
 };

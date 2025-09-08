@@ -1,0 +1,158 @@
+/* --- Research & Projects 页面样式 --- */
+.publications-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+/* --- 论文卡片样式 --- */
+.publication-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px 120px 25px 25px; /* 右侧增加padding为badge留空间 */
+    border: 1px solid #e9ecef;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加 box-shadow 过渡 */
+    position: relative;
+    overflow: hidden;
+}
+
+.publication-card:hover {
+    transform: translateY(-4px); /* 悬浮时上移更多 */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* 悬浮时添加阴影 */
+}
+
+.publication-header {
+    margin-bottom: 15px;
+}
+
+.publication-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+.publication-venue {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.venue-name {
+    font-weight: 600;
+    color: #4A55A2;
+    font-size: 0.95rem;
+}
+
+.publication-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    background: #f8f9fa;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.publication-content {
+    margin: 15px 0;
+}
+
+.research-area {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.authors {
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* --- 论文等级标签样式 --- */
+.publication-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    max-width: 90px; /* 限制最大宽度 */
+    text-align: center;
+}
+
+.publication-badge.ccf-a {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+}
+
+.publication-badge.ccf-b {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+}
+
+/* --- 响应式设计for Research页面 --- */
+@media (max-width: 768px) {
+    .publication-card {
+        padding: 20px 100px 20px 20px; /* 移动端也保持右侧空间 */
+    }
+    
+    .publication-title {
+        font-size: 1.1rem;
+    }
+    
+    .publication-venue {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .publication-badge {
+        top: 15px;
+        right: 15px;
+        font-size: 0.75rem;
+        padding: 4px 8px;
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .publications-grid {
+        gap: 20px;
+    }
+    
+    .publication-card {
+        padding: 15px 80px 15px 15px; /* 小屏幕上减少右侧空间 */
+    }
+    
+    .publication-title {
+        font-size: 1rem;
+    }
+    
+    .venue-name {
+        font-size: 0.9rem;
+    }
+    
+    .authors {
+        font-size: 0.85rem;
+    }
+    
+    .publication-badge {
+        top: 10px;
+        right: 10px;
+        font-size: 0.7rem;
+        padding: 3px 6px;
+        max-width: 65px;
+    }
+}

@@ -1,0 +1,35 @@
+/* --- 全局样式重置与基础设定 --- */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa; /* 更柔和的背景色 */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- 主内容区域样式 --- */
+.main-container {
+    max-width: 1200px;
+    margin: 40px auto; /* 上下边距40px，左右自动居中 */
+    padding: 0 20px;
+}
+
+/* --- 分组标题样式 --- */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #343a40;
+    position: relative;
+}
+
+/* 为标题添加一个装饰性下划线 */
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #4A55A2;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}

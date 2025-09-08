@@ -1,0 +1,313 @@
+/* --- 团队成员相关样式 --- */
+
+/* --- 团队成员网格布局 --- */
+.team-grid {
+    display: flex;
+    flex-wrap: wrap; /* 允许成员卡片换行 */
+    justify-content: center; /* 水平居中对齐 */
+    gap: 30px 15px; /* 优化行间距30px，列间距15px */
+    margin-bottom: 20px; /* 为年级分组间添加底部边距 */
+}
+
+/* --- 成员卡片样式 --- */
+.member-card {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-card .avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; /* 创建圆形头像 */
+    object-fit: cover; /* 保证图片不变形 */
+    margin-bottom: 15px;
+    border: 3px solid #e9ecef;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover .avatar {
+    transform: scale(1.05); /* 鼠标悬停时放大头像 */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.member-card .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* 其他信息使用更柔和的颜色 */
+.member-card .info {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 3px;
+}
+
+.member-card .info a {
+    color: #007bff; /* 链接颜色 - 修复了原代码中的错误 */
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.member-card .info a:hover {
+    text-decoration: underline;
+}
+
+/* --- 年级分组标题样式 --- */
+.grade-title {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #4A55A2;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* --- Supervisor 板块样式 --- */
+.supervisor-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.supervisor-card {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.supervisor-card:hover {
+    transform: translateY(-4px);
+}
+
+.supervisor-image {
+    flex-shrink: 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 30px;
+}
+
+.supervisor-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.supervisor-info {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.supervisor-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 8px 0;
+}
+
+.supervisor-title {
+    font-size: 1.1rem;
+    color: #4A55A2;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+}
+
+.supervisor-affiliation {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+}
+
+.supervisor-details {
+    margin-bottom: 20px;
+}
+
+.detail-item {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.detail-item strong {
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 140px;
+    font-size: 0.9rem;
+}
+
+.detail-item span {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.supervisor-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.link-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #f8f9fa;
+    color: #4A55A2;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+    background: #4A55A2;
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* --- Alumni 部分样式 --- */
+.alumni-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.alumni-section .section-title {
+    color: #6c757d;
+}
+
+.alumni-section .member-card {
+    position: relative;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+}
+
+.alumni-section .member-card:hover {
+    opacity: 1;
+}
+
+.alumni-section .member-card::after {
+    content: "🎓";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alumni-section .grade-title {
+    color: #6c757d;
+}
+
+/* --- 响应式设计 --- */
+/* 当屏幕宽度小于 768px (例如平板) */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    .member-card {
+        width: 180px; /* 在小屏幕上稍微减小卡片宽度 */
+    }
+    
+    /* --- Supervisor 响应式设计 --- */
+    .supervisor-card {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .supervisor-image {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .supervisor-avatar {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .supervisor-info {
+        padding: 20px;
+    }
+    
+    .supervisor-name {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .supervisor-title,
+    .supervisor-affiliation {
+        text-align: center;
+    }
+    
+    .detail-item strong {
+        width: auto;
+        display: block;
+        margin-bottom: 4px;
+    }
+    
+    .supervisor-links {
+        justify-content: center;
+    }
+}
+
+/* 当屏幕宽度小于 480px (例如手机) */
+@media (max-width: 480px) {
+    .navbar .nav-links li {
+        margin-left: 15px;
+    }
+    .team-grid {
+        gap: 20px 8px; /* 进一步减小间距以适应更多成员 */
+    }
+    .member-card {
+        width: 140px; /* 进一步减小卡片宽度 */
+    }
+    .member-card .avatar {
+        width: 100px; /* 减小头像尺寸 */
+        height: 100px;
+    }
+    .member-card .name {
+        font-size: 1rem; /* 调整字体大小 */
+    }
+    .member-card .info {
+        font-size: 0.8rem; /* 调整信息字体大小 */
+    }
+    
+    .supervisor-info {
+        padding: 15px;
+    }
+    
+    .supervisor-name {
+        font-size: 1.3rem;
+    }
+    
+    .link-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}

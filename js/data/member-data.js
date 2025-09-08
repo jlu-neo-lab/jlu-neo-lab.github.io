@@ -129,7 +129,7 @@ const memberProfiles = {
         education: '正在攻读学位',
         email: 'member@jlu.edu.cn',
         achievements: ['积极参与团队研究'],
-        bio: '该成员是Lambda Lab团队的重要组成部分，积极参与各项研究工作。'
+        bio: '该成员是NeO Lab团队的重要组成部分，积极参与各项研究工作。'
     }
 };
 

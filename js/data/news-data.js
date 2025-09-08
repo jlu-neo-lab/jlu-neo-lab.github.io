@@ -2,7 +2,7 @@
 const newsData = {
     'team-expansion-2025': {
         title: {
-            en: 'Lambda Lab Welcomes New PhD Students in 2025',
+            en: 'NeO Lab Welcomes New PhD Students in 2025',
             zh: 'Lambda实验室2025年迎来新博士生'
         },
         date: '2025-01-15',
@@ -15,7 +15,7 @@ const newsData = {
             zh: '我们很高兴迎来今年加入研究团队的新博士生，他们为我们正在进行的项目带来了新的视角。'
         },
         content: {
-            en: 'Lambda Lab is thrilled to announce the arrival of our newest PhD students for the 2025 academic year. These talented researchers bring diverse backgrounds in machine learning, optimization, and artificial intelligence. We look forward to their contributions to our ongoing research in combinatorial optimization, neural architecture search, and large language models.',
+            en: 'NeO Lab is thrilled to announce the arrival of our newest PhD students for the 2025 academic year. These talented researchers bring diverse backgrounds in machine learning, optimization, and artificial intelligence. We look forward to their contributions to our ongoing research in combinatorial optimization, neural architecture search, and large language models.',
             zh: 'Lambda实验室很高兴宣布2025学年新博士生的到来。这些才华横溢的研究人员在机器学习、优化和人工智能方面拥有不同的背景。我们期待他们在组合优化、神经架构搜索和大语言模型等正在进行的研究中做出贡献。'
         },
         image: 'https://via.placeholder.com/600x300',
@@ -53,7 +53,7 @@ const newsData = {
             zh: '合作伙伴'
         },
         summary: {
-            en: 'Lambda Lab partners with leading technology companies to advance AI applications in smart manufacturing and logistics.',
+            en: 'NeO Lab partners with leading technology companies to advance AI applications in smart manufacturing and logistics.',
             zh: 'Lambda实验室与领先的科技公司合作，推进人工智能在智能制造和物流领域的应用。'
         },
         content: {
@@ -95,7 +95,7 @@ const newsData = {
             zh: '基础设施'
         },
         summary: {
-            en: 'Lambda Lab has upgraded its computing infrastructure with new high-performance GPUs to support large-scale machine learning research.',
+            en: 'NeO Lab has upgraded its computing infrastructure with new high-performance GPUs to support large-scale machine learning research.',
             zh: 'Lambda实验室升级了计算基础设施，配备了新的高性能GPU以支持大规模机器学习研究。'
         },
         content: {
@@ -116,7 +116,7 @@ const newsData = {
             zh: '获奖信息'
         },
         summary: {
-            en: 'Several Lambda Lab students have been recognized with prestigious awards for their exceptional research contributions.',
+            en: 'Several NeO Lab students have been recognized with prestigious awards for their exceptional research contributions.',
             zh: 'Lambda实验室的几名学生因其杰出的研究贡献而获得了著名奖项。'
         },
         content: {
