@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News - Neo Lab</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <style>
         /* 简约新闻页面样式 */
         .logo-container {
@@ -197,7 +197,7 @@
             <li><a href="/index.html">Team</a></li>
             <li><a href="/pages/research.html">Research</a></li>
             <li><a href="/pages/projects.html">Projects</a></li>
-            <li><a href="#" class="active">News</a></li>
+            <li><a href="/pages/news.html" class="active">News</a></li>
             <li><a href="#" onclick="window.LanguageManager.toggleLanguage()">中文</a></li>
         </ul>
     </header>
@@ -224,11 +224,12 @@
     <div id="footer-container"></div>
     
     <!-- 导入模块化JavaScript文件 -->
-    <script src="/js/component-loader.js"></script>
-    <script src="/js/news-data.js"></script>
-    <script src="/js/news-modal.js"></script>
-    <script src="/js/language-manager.js"></script>
-    
+    <script src="../js/component-loader.js"></script>
+    <script src="../js/news-data.js"></script>
+    <script src="../js/news-modal.js"></script>
+    <script src="../js/language-manager.js"></script>
+    <script src="../js/app-initializer.js"></script> <!-- 确保app-initializer在最后加载 -->
+
     <!-- 页面初始化和分页功能 -->
     <script>
         // 分页配置
@@ -359,7 +360,7 @@
             // 加载页脚组件
             const footerContainer = document.getElementById('footer-container');
             if (footerContainer && window.ComponentLoader) {
-                window.ComponentLoader.loadComponent('footer-container', '/pages/footer.html');
+                window.ComponentLoader.loadComponent('footer-container', '../pages/footer.html');
             }
             
             // 初始化新闻数据和分页
