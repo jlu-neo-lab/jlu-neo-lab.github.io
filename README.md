@@ -39,7 +39,7 @@ jlu-neo-lab.github.io/
 
 ### 1. 本地运行
 
-在浏览器中访问 `http://localhost:8000/LamdaLab.html`
+在浏览器中访问 `https://jlu-neo-alb.github.io`
 
 ### 2. 部署到GitHub Pages
 
