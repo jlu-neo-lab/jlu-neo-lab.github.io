@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Neo Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+        }
+
+        .logo-container .logo {
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .logo-subtitle {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            font-style: italic;
+            margin-top: 2px;
+            line-height: 1;
+        }
+
+        @media (max-width: 768px) {
+            .logo-subtitle {
+                font-size: 0.65rem;
+                margin-top: 1px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <a href="LamdaLab.html" class="logo-container">
+            <div class="logo">Neo Lab</div>
+            <div class="logo-subtitle" data-en="Neural Optimization Lab" data-zh="神经优化实验室">Neural Optimization Lab</div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="LamdaLab.html">Team</a></li>
+            <li><a href="#" class="active">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#" onclick="window.LanguageManager.toggleLanguage()">中文</a></li>
+        </ul>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+
+        <!-- Publications -->
+        <section style="margin-top: 60px;">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-grid">
+                
+                <!-- 论文卡片1 -->
+                <div class="publication-card clickable-research" data-research="dual-operation-aggregation">
+                    <div class="publication-header">
+                        <h3 class="publication-title">Dual Operation Aggregation Graph Neural Networks for Solving Flexible Job-Shop Scheduling Problem with Reinforcement Learning</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">WWW</span>
+                            <span class="publication-date">2025-05</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area">Combinatorial Optimization(组合优化)</p>
+                        <p class="authors">Peng Zhao, You Zhou, Di Wang, Zhiguang Cao, Yubin Xiao, Xuan Wu, Yuanshu Li, Hongjia Liu, Wei Du, Yuan Jiang, Liupu Wang</p>
+                    </div>
+                    <div class="publication-badge ccf-a">CCF A</div>
+                </div>
+
+                <!-- 论文卡片2 -->
+                <div class="publication-card clickable-research" data-research="efficient-diffusion-solver">
+                    <div class="publication-header">
+                        <h3 class="publication-title">An Efficient Diffusion-based Non-Autoregressive Solver for Traveling Salesman Problem</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">KDD</span>
+                            <span class="publication-date">2025-02</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area">Combinatorial Optimization(组合优化)</p>
+                        <p class="authors">Mingzhao Wang, You Zhou, Zhiguang Cao, Yubin Xiao, Xuan Wu, Wei Pang, Yuan Jiang, Hui Yang, Peng Zhao, Yuanshu Li</p>
+                    </div>
+                    <div class="publication-badge ccf-a">CCF A</div>
+                </div>
+
+                <!-- 论文卡片3 -->
+                <div class="publication-card clickable-research" data-research="distilling-autoregressive-models">
+                    <div class="publication-header">
+                        <h3 class="publication-title">Distilling autoregressive models to obtain high-performance non-autoregressive solvers for vehicle routing problems with faster inference speed</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">AAAI</span>
+                            <span class="publication-date">2024-03-24</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area">Combinatorial Optimization(组合优化)</p>
+                        <p class="authors">Yubin Xiao, Di Wang, Boyang Li, Mingzhao Wang, Xuan Wu, Changliang Zhou, You Zhou</p>
+                    </div>
+                    <div class="publication-badge ccf-a">CCF A</div>
+                </div>
+
+                <div class="publication-card clickable-research" data-research="reinforcement-learning-solver">
+                    <div class="publication-header">
+                        <h3 class="publication-title">Reinforcement Learning-Based Nonautoregressive Solver for Traveling Salesman Problems</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">IEEE Transactions on Neural Networks and Learning Systems</span>
+                            <span class="publication-date">2024-10-29</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area">Combinatorial Optimization(组合优化)</p>
+                        <p class="authors">Yubin Xiao, Di Wang, Boyang Li, Huanhuan Chen, Wei Pang, Xuan Wu, Hao Li, Dong Xu, Yanchun Liang, You Zhou</p>
+                    </div>
+                    <div class="publication-badge ccf-b">CCF ?</div>
+                </div>
+
+                <!-- 论文卡片5 -->
+                <div class="publication-card clickable-research" data-research="neural-architecture-search">
+                    <div class="publication-header">
+                        <h3 class="publication-title">Neural Architecture Search for Text Classification With Limited Computing Resources Using Efficient Cartesian Genetic Programming</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">IEEE Transactions on Evolutionary Computation</span>
+                            <span class="publication-date">2024-05</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area">Combinatorial Optimization(组合优化)</p>
+                        <p class="authors">Xuan Wu, Di Wang, Huanhuan Chen, Lele Yan, Yubin Xiao, Chunyan Miao, Hongwei Ge, Dong Xu, Yanchun Liang, Kangping Wang, Chunguo Wu, You Zhou</p>
+                    </div>
+                    <div class="publication-badge ccf-b">CCF ?</div>
+                </div>
+
+                <!-- 论文卡片6 -->
+                <div class="publication-card clickable-research" data-research="incorporating-surprisingly-popular">
+                    <div class="publication-header">
+                        <h3 class="publication-title">Incorporating surprisingly popular algorithm and euclidean distance-based adaptive topology into PSO</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Swarm and Evolutionary Computation</span>
+                            <span class="publication-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area">Combinatorial Optimization(组合优化)</p>
+                        <p class="authors">Xuan Wu, Jizong Han, Di Wang, Pengyue Gao, Quanlong Cui, Liang Chen, Yanchun Liang, Han Huang, Heow Pueh Lee, Chunyan Miao, You Zhou*, Chunguo Wu*</p>
+                    </div>
+                    <div class="publication-badge ccf-b">CCF ?</div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 页脚容器 -->
+    <div id="footer-container"></div>
+    <!-- 导入模块化JavaScript文件 -->
+      <!-- 导入模块化JavaScript文件 -->
+    <script src="js/component-loader.js"></script>
+    <script src="js/data/member-data.js"></script>
+    <script src="js/member-modal.js"></script>
+    <script src="js/data/project-data.js"></script>
+    <script src="js/project-modal.js"></script>
+    <script src="js/data/research-data.js"></script>
+    <script src="js/research-modal.js"></script>
+    <script src="js/language-manager.js"></script>
+    <script src="js/app-initializer.js"></script> 
+    
+</body>
+</html>

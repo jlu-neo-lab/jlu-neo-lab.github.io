@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - Neo Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 简约新闻页面样式 */
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+        }
+
+        .logo-container .logo {
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .logo-subtitle {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            font-style: italic;
+            margin-top: 2px;
+            line-height: 1;
+        }
+
+        .news-item {
+            background: white;
+            border-left: 4px solid #4A55A2;
+            margin-bottom: 20px;
+            padding: 20px 30px;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            min-height: 80px;
+        }
+
+        .news-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-content {
+            flex: 1;
+        }
+
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 8px;
+        }
+
+        .news-date {
+            color: #7f8c8d;
+            font-size: 13px;
+            font-weight: 500;
+            min-width: 80px;
+        }
+
+        .news-category {
+            display: inline-block;
+            background: #ecf0f1;
+            color: #34495e;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .news-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .news-summary {
+            color: #5a6c7d;
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+
+        /* 分页样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 40px;
+            padding: 20px 0;
+        }
+
+        .pagination-btn {
+            background: white;
+            border: 2px solid #e0e0e0;
+            color: #666;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        .pagination-btn:hover:not(.disabled) {
+            border-color: #4A55A2;
+            color: #4A55A2;
+        }
+
+        .pagination-btn.active {
+            background: #4A55A2;
+            border-color: #4A55A2;
+            color: white;
+        }
+
+        .pagination-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination-info {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin: 0 15px;
+        }
+
+        /* 隐藏新闻项（用于分页） */
+        .news-item.hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .logo-subtitle {
+                font-size: 0.65rem;
+                margin-top: 1px;
+            }
+            
+            .news-item {
+                padding: 15px 20px;
+                margin-bottom: 15px;
+                flex-direction: column;
+                align-items: flex-start;
+                min-height: auto;
+            }
+
+            .news-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+            
+            
+            .news-title {
+                font-size: 16px;
+            }
+
+            .news-summary {
+                font-size: 13px;
+            }
+
+            .pagination {
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+
+            .pagination-btn {
+                padding: 6px 10px;
+                font-size: 13px;
+                min-width: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <a href="LamdaLab.html" class="logo-container">
+            <div class="logo">Neo Lab</div>
+            <div class="logo-subtitle" data-en="Neural Optimization Lab" data-zh="神经优化实验室">Neural Optimization Lab</div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="LamdaLab.html">Team</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#" class="active">News</a></li>
+            <li><a href="#" onclick="window.LanguageManager.toggleLanguage()">中文</a></li>
+        </ul>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- News Section -->
+        <section style="margin-top: 60px;">
+            <h2 class="section-title" data-en="News" data-zh="资讯">News</h2>
+            
+            <!-- 新闻列表 -->
+            <div class="news-list" id="news-list">
+                <!-- 新闻内容将通过JavaScript动态加载 -->
+            </div>
+
+            <!-- 分页控件 -->
+            <div class="pagination" id="pagination">
+                <!-- 分页按钮将通过JavaScript动态生成 -->
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚容器 -->
+    <div id="footer-container"></div>
+    
+    <!-- 导入模块化JavaScript文件 -->
+    <script src="js/component-loader.js"></script>
+    <script src="js/news-data.js"></script>
+    <script src="js/news-modal.js"></script>
+    <script src="js/language-manager.js"></script>
+    
+    <!-- 页面初始化和分页功能 -->
+    <script>
+        // 分页配置
+        const ITEMS_PER_PAGE = 4;
+        let currentPage = 1;
+        let newsArray = [];
+        let totalPages = 1;
+
+        // 将新闻数据转换为数组并按日期排序
+        function initializeNews() {
+            if (!window.NewsData || !window.NewsData.newsData) {
+                console.error('News data not loaded');
+                return;
+            }
+
+            newsArray = Object.entries(window.NewsData.newsData).map(([id, data]) => ({
+                id,
+                ...data
+            })).sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            totalPages = Math.ceil(newsArray.length / ITEMS_PER_PAGE);
+            renderNews();
+            renderPagination();
+        }
+
+        // 渲染新闻列表
+        function renderNews() {
+            const newsList = document.getElementById('news-list');
+            const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+            const endIndex = startIndex + ITEMS_PER_PAGE;
+            const currentNews = newsArray.slice(startIndex, endIndex);
+
+            const currentLanguage = window.LanguageManager ? window.LanguageManager.getCurrentLanguage() : 'en';
+
+            newsList.innerHTML = currentNews.map(news => `
+                <article class="news-item clickable-news" data-news="${news.id}">
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <div class="news-date">${news.date}</div>
+                            <span class="news-category" data-en="${news.category.en}" data-zh="${news.category.zh}">${news.category[currentLanguage]}</span>
+                        </div>
+                        <h2 class="news-title" data-en="${news.title.en}" data-zh="${news.title.zh}">${news.title[currentLanguage]}</h2>
+                        <p class="news-summary" data-en="${news.summary.en}" data-zh="${news.summary.zh}">${news.summary[currentLanguage]}</p>
+                    </div>
+                </article>
+            `).join('');
+
+            // 重新初始化点击事件
+            if (window.NewsModal) {
+                window.NewsModal.initializeNewsClicks();
+            }
+
+            // 更新语言
+            if (window.LanguageManager) {
+                window.LanguageManager.updatePageLanguage();
+            }
+        }
+
+        // 渲染分页控件
+        function renderPagination() {
+            const pagination = document.getElementById('pagination');
+            const currentLanguage = window.LanguageManager ? window.LanguageManager.getCurrentLanguage() : 'en';
+            
+            let paginationHTML = '';
+
+            // 上一页按钮
+            paginationHTML += `
+                <button class="pagination-btn ${currentPage === 1 ? 'disabled' : ''}" 
+                        onclick="changePage(${currentPage - 1})" 
+                        ${currentPage === 1 ? 'disabled' : ''}>
+                    ←
+                </button>
+            `;
+
+            // 页码按钮
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                    paginationHTML += `
+                        <button class="pagination-btn ${i === currentPage ? 'active' : ''}" 
+                                onclick="changePage(${i})">
+                            ${i}
+                        </button>
+                    `;
+                } else if (i === currentPage - 2 || i === currentPage + 2) {
+                    paginationHTML += '<span class="pagination-btn disabled">...</span>';
+                }
+            }
+
+            // 下一页按钮
+            paginationHTML += `
+                <button class="pagination-btn ${currentPage === totalPages ? 'disabled' : ''}" 
+                        onclick="changePage(${currentPage + 1})" 
+                        ${currentPage === totalPages ? 'disabled' : ''}>
+                    →
+                </button>
+            `;
+
+            // 页面信息
+            const totalText = currentLanguage === 'en' ? 'Total' : '共';
+            const pageText = currentLanguage === 'en' ? 'pages' : '页';
+            paginationHTML += `
+                <div class="pagination-info">
+                    ${totalText} ${totalPages} ${pageText}
+                </div>
+            `;
+
+            pagination.innerHTML = paginationHTML;
+        }
+
+        // 切换页面
+        function changePage(page) {
+            if (page < 1 || page > totalPages || page === currentPage) {
+                return;
+            }
+            
+            currentPage = page;
+            renderNews();
+            renderPagination();
+            
+            // 滚动到顶部
+            document.querySelector('main').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }
+
+        // 页面加载完成后的初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 加载页脚组件
+            const footerContainer = document.getElementById('footer-container');
+            if (footerContainer && window.ComponentLoader) {
+                window.ComponentLoader.loadComponent('footer-container', 'footer.html');
+            }
+            
+            // 初始化新闻数据和分页
+            setTimeout(initializeNews, 100); // 确保数据已加载
+            
+            // 设置初始语言状态
+            if (window.LanguageManager) {
+                window.LanguageManager.updatePageLanguage();
+            }
+        });
+
+        // 监听语言切换事件
+        document.addEventListener('languageChanged', function() {
+            renderNews();
+            renderPagination();
+        });
+    </script>
+    
+</body>
+</html>

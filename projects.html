@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Neo Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+        }
+
+        .logo-container .logo {
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .logo-subtitle {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            font-style: italic;
+            margin-top: 2px;
+            line-height: 1;
+        }
+
+        @media (max-width: 768px) {
+            .logo-subtitle {
+                font-size: 0.65rem;
+                margin-top: 1px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <a href="LamdaLab.html" class="logo-container">
+            <div class="logo">Neo Lab</div>
+            <div class="logo-subtitle" data-en="Neural Optimization Lab" data-zh="神经优化实验室">Neural Optimization Lab</div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="LamdaLab.html">Team</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="#" class="active">Projects</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#" onclick="window.LanguageManager.toggleLanguage()">中文</a></li>
+        </ul>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+
+        <!-- Projects Section -->
+        <section style="margin-top: 60px;">
+            <h2 class="section-title">Projects</h2>
+            <div class="publications-grid">
+                
+                <!-- 项目卡片1 -->
+                <div class="publication-card clickable-project" data-project="smart-scheduling">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Intelligent Workshop Scheduling Optimization System" data-zh="智能车间调度优化系统">Intelligent Workshop Scheduling Optimization System</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Production System</span>
+                            <span class="publication-date">2024-Present</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Industrial Optimization" data-zh="工业优化">Industrial Optimization</p>
+                        <p class="authors" data-en="This project develops an intelligent workshop scheduling optimization system based on deep reinforcement learning and graph neural networks. The system can process complex job scheduling problems in real-time, significantly improving production efficiency and resource utilization." data-zh="本项目基于深度强化学习和图神经网络，开发了一套智能车间调度优化系统。该系统能够实时处理复杂的作业调度问题，显著提高生产效率和资源利用率。">This project develops an intelligent workshop scheduling optimization system based on deep reinforcement learning and graph neural networks. The system can process complex job scheduling problems in real-time, significantly improving production efficiency and resource utilization.</p>
+                    </div>
+                    <div class="publication-badge ccf-a">Active</div>
+                </div>
+
+                <!-- 项目卡片2 -->
+                <div class="publication-card clickable-project" data-project="diffusion-solver">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Diffusion-based Non-Autoregressive Combinatorial Optimization Solver" data-zh="基于扩散模型的组合优化求解器">Diffusion-based Non-Autoregressive Combinatorial Optimization Solver</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">AI Research</span>
+                            <span class="publication-date">2024-Present</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Machine Learning" data-zh="机器学习">Machine Learning</p>
+                        <p class="authors" data-en="Developed a diffusion-based non-autoregressive combinatorial optimization solver specifically for Traveling Salesman Problem (TSP) and Vehicle Routing Problem (VRP). This approach maintains high-quality solutions while significantly improving inference speed." data-zh="开发了基于扩散模型的非自回归组合优化求解器，专门针对旅行商问题(TSP)和车辆路径问题(VRP)。该方法在保持高质量解的同时，大幅提升了推理速度。">Developed a diffusion-based non-autoregressive combinatorial optimization solver specifically for Traveling Salesman Problem (TSP) and Vehicle Routing Problem (VRP). This approach maintains high-quality solutions while significantly improving inference speed.</p>
+                    </div>
+                    <div class="publication-badge ccf-a">Active</div>
+                </div>
+
+                <!-- 项目卡片3 -->
+                <div class="publication-card clickable-project" data-project="automl-platform">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Neural Architecture Search Automation Platform" data-zh="神经架构搜索自动化平台">Neural Architecture Search Automation Platform</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">AutoML Platform</span>
+                            <span class="publication-date">2023-2024</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="AutoML" data-zh="自动机器学习">AutoML</p>
+                        <p class="authors" data-en="Built an efficient neural architecture search platform using genetic programming algorithms to optimize network structure design. The platform supports various tasks including text classification and image recognition, automatically discovering high-performance neural network architectures with limited computational resources." data-zh="构建了一个高效的神经架构搜索平台，采用遗传编程算法优化网络结构设计。平台支持文本分类、图像识别等多种任务，在有限计算资源下能够自动发现高性能的神经网络架构。">Built an efficient neural architecture search platform using genetic programming algorithms to optimize network structure design. The platform supports various tasks including text classification and image recognition, automatically discovering high-performance neural network architectures with limited computational resources.</p>
+                    </div>
+                    <div class="publication-badge ccf-b">Completed</div>
+                </div>
+
+                <!-- 项目卡片4 -->
+                <div class="publication-card clickable-project" data-project="pso-library">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Multi-Objective Particle Swarm Optimization Library" data-zh="多目标粒子群优化算法库">Multi-Objective Particle Swarm Optimization Library</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Open Source</span>
+                            <span class="publication-date">2023-Present</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Evolutionary Computing" data-zh="进化计算">Evolutionary Computing</p>
+                        <p class="authors" data-en="Developed an open-source multi-objective particle swarm optimization library integrating the latest adaptive topology structures and popularity algorithms. The library provides rich API interfaces and visualization tools, adopted by multiple research institutions and enterprises." data-zh="开发了一个开源的多目标粒子群优化算法库，集成了最新的自适应拓扑结构和流行度算法。该库提供了丰富的API接口和可视化工具，已被多个研究机构和企业采用。">Developed an open-source multi-objective particle swarm optimization library integrating the latest adaptive topology structures and popularity algorithms. The library provides rich API interfaces and visualization tools, adopted by multiple research institutions and enterprises.</p>
+                    </div>
+                    <div class="publication-badge ccf-a">Active</div>
+                </div>
+
+                <!-- 项目卡片5 -->
+                <div class="publication-card clickable-project" data-project="smart-logistics">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Smart Logistics Route Planning System" data-zh="智慧物流路径规划系统">Smart Logistics Route Planning System</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Logistics AI</span>
+                            <span class="publication-date">2024-Present</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Smart Logistics" data-zh="智能物流">Smart Logistics</p>
+                        <p class="authors" data-en="Developed a reinforcement learning-based smart logistics route planning system for e-commerce scenarios. The system dynamically optimizes delivery routes considering traffic conditions, time windows, vehicle capacity, and other constraints to reduce delivery costs and improve customer satisfaction." data-zh="面向电商物流场景，开发了基于强化学习的智慧物流路径规划系统。系统能够动态优化配送路线，考虑交通状况、时间窗口、车辆容量等多重约束，有效降低配送成本并提升客户满意度。">Developed a reinforcement learning-based smart logistics route planning system for e-commerce scenarios. The system dynamically optimizes delivery routes considering traffic conditions, time windows, vehicle capacity, and other constraints to reduce delivery costs and improve customer satisfaction.</p>
+                    </div>
+                    <div class="publication-badge ccf-a">Active</div>
+                </div>
+
+                <!-- 项目卡片6 -->
+                <div class="publication-card clickable-project" data-project="gnn-framework">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Large-Scale Graph Neural Network Training Framework" data-zh="大规模图神经网络训练框架">Large-Scale Graph Neural Network Training Framework</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Deep Learning</span>
+                            <span class="publication-date">2023-2024</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Graph Neural Networks" data-zh="图神经网络">Graph Neural Networks</p>
+                        <p class="authors" data-en="Designed and implemented an efficient large-scale graph neural network training framework supporting distributed training and memory optimization. The framework uses advanced graph sampling and aggregation strategies, capable of processing million-node graph data for social network analysis and recommendation systems." data-zh="设计并实现了一个高效的大规模图神经网络训练框架，支持分布式训练和内存优化。框架采用了先进的图采样和聚合策略，能够处理百万级节点的图数据，为社交网络分析、推荐系统等应用提供了强大的技术支撑。">Designed and implemented an efficient large-scale graph neural network training framework supporting distributed training and memory optimization. The framework uses advanced graph sampling and aggregation strategies, capable of processing million-node graph data for social network analysis and recommendation systems.</p>
+                    </div>
+                    <div class="publication-badge ccf-b">Completed</div>
+                </div>
+
+                <!-- 项目卡片7 -->
+                <div class="publication-card clickable-project" data-project="medical-ai">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Medical Image Intelligence Analysis Platform" data-zh="医疗影像智能分析平台">Medical Image Intelligence Analysis Platform</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Medical AI</span>
+                            <span class="publication-date">2024-Present</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Medical AI" data-zh="医疗人工智能">Medical AI</p>
+                        <p class="authors" data-en="Developed in collaboration with hospitals, this medical image intelligence analysis platform uses deep learning technology for automatic analysis and diagnostic assistance of CT, MRI and other medical images. The platform integrates multiple disease detection models, providing accurate diagnostic recommendations to improve medical diagnosis efficiency and accuracy." data-zh="与医院合作开发的医疗影像智能分析平台，运用深度学习技术对CT、MRI等医疗影像进行自动分析和诊断辅助。平台集成了多种病症检测模型，能够为医生提供准确的诊断建议，提升医疗诊断效率和准确性。">Developed in collaboration with hospitals, this medical image intelligence analysis platform uses deep learning technology for automatic analysis and diagnostic assistance of CT, MRI and other medical images. The platform integrates multiple disease detection models, providing accurate diagnostic recommendations to improve medical diagnosis efficiency and accuracy.</p>
+                    </div>
+                    <div class="publication-badge ccf-a">Active</div>
+                </div>
+
+                <!-- 项目卡片8 -->
+                <div class="publication-card clickable-project" data-project="time-series">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Time Series Prediction Algorithm Optimization" data-zh="时间序列预测算法优化">Time Series Prediction Algorithm Optimization</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Time Series</span>
+                            <span class="publication-date">2023-2024</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Time Series Analysis" data-zh="时序分析">Time Series Analysis</p>
+                        <p class="authors" data-en="Developed prediction models based on hybrid Transformer and LSTM architectures for time series forecasting needs in finance and energy sectors. The models achieved state-of-the-art performance on multiple public datasets and have been applied to stock price prediction and energy consumption forecasting." data-zh="针对金融、能源等领域的时间序列预测需求，开发了基于Transformer和LSTM混合架构的预测模型。模型在多个公开数据集上取得了state-of-the-art的性能，并已应用于股票价格预测和能源消耗预测等实际场景。">Developed prediction models based on hybrid Transformer and LSTM architectures for time series forecasting needs in finance and energy sectors. The models achieved state-of-the-art performance on multiple public datasets and have been applied to stock price prediction and energy consumption forecasting.</p>
+                    </div>
+                    <div class="publication-badge ccf-b">Completed</div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="member-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-project-name">Project Details</h2>
+                <button class="modal-close" onclick="closeProjectModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-project-details">
+                    <!-- Project details will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚容器 -->
+    <div id="footer-container"></div>
+    <!-- 导入模块化JavaScript文件 -->
+    <script src="js/component-loader.js"></script>
+    <script src="js/data/member-data.js"></script>
+    <script src="js/member-modal.js"></script>
+    <script src="js/data/project-data.js"></script>
+    <script src="js/project-modal.js"></script>
+    <script src="js/data/research-data.js"></script>
+    <script src="js/research-modal.js"></script>
+    <script src="js/language-manager.js"></script>
+    <script src="js/app-initializer.js"></script> 
+    
+</body>
+</html>

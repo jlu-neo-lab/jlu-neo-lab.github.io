@@ -1,0 +1,930 @@
+/* --- 全局样式重置与基础设定 --- */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa; /* 更柔和的背景色 */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- 导航栏样式 --- */
+.navbar {
+    background-color: #4A55A2; /* 参考图中的深蓝色 */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between; /* 两端对齐 */
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 25px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-links a:hover, .navbar .nav-links a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- 主内容区域样式 --- */
+.main-container {
+    max-width: 1200px;
+    margin: 40px auto; /* 上下边距40px，左右自动居中 */
+    padding: 0 20px;
+}
+
+/* --- 分组标题样式 --- */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #343a40;
+    position: relative;
+}
+
+/* 为标题添加一个装饰性下划线 */
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #4A55A2;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* --- 团队成员网格布局 --- */
+.team-grid {
+    display: flex;
+    flex-wrap: wrap; /* 允许成员卡片换行 */
+    justify-content: center; /* 水平居中对齐 */
+    gap: 30px 15px; /* 优化行间距30px，列间距15px */
+    margin-bottom: 20px; /* 为年级分组间添加底部边距 */
+}
+
+/* --- 成员卡片样式 --- */
+.member-card {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-card .avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; /* 创建圆形头像 */
+    object-fit: cover; /* 保证图片不变形 */
+    margin-bottom: 15px;
+    border: 3px solid #e9ecef;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover .avatar {
+    transform: scale(1.05); /* 鼠标悬停时放大头像 */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.member-card .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* 其他信息使用更柔和的颜色 */
+.member-card .info {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 3px;
+}
+
+.member-card .info a {
+    color: #007bff; /* 链接颜色 - 修复了原代码中的错误 */
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.member-card .info a:hover {
+    text-decoration: underline;
+}
+
+/* --- 响应式设计 --- */
+/* 当屏幕宽度小于 768px (例如平板) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar .nav-links {
+        margin-top: 15px;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .member-card {
+        width: 180px; /* 在小屏幕上稍微减小卡片宽度 */
+    }
+}
+
+/* 当屏幕宽度小于 480px (例如手机) */
+@media (max-width: 480px) {
+    .navbar .nav-links li {
+        margin-left: 15px;
+    }
+    .team-grid {
+        gap: 20px 8px; /* 进一步减小间距以适应更多成员 */
+    }
+    .member-card {
+        width: 140px; /* 进一步减小卡片宽度 */
+    }
+    .member-card .avatar {
+        width: 100px; /* 减小头像尺寸 */
+        height: 100px;
+    }
+    .member-card .name {
+        font-size: 1rem; /* 调整字体大小 */
+    }
+    .member-card .info {
+        font-size: 0.8rem; /* 调整信息字体大小 */
+    }
+}
+
+/* --- 年级分组标题样式 --- */
+.grade-title {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #4A55A2;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* --- Supervisor 板块样式 --- */
+.supervisor-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.supervisor-card {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    background: white;
+    border-radius: 16px;
+
+
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.supervisor-card:hover {
+    transform: translateY(-4px);
+}
+
+.supervisor-image {
+    flex-shrink: 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 30px;
+}
+
+.supervisor-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.supervisor-info {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.supervisor-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 8px 0;
+}
+
+.supervisor-title {
+    font-size: 1.1rem;
+    color: #4A55A2;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+}
+
+.supervisor-affiliation {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+}
+
+.supervisor-details {
+    margin-bottom: 20px;
+}
+
+.detail-item {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.detail-item strong {
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 140px;
+    font-size: 0.9rem;
+}
+
+.detail-item span {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.supervisor-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.link-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #f8f9fa;
+    color: #4A55A2;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+    background: #4A55A2;
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* --- Supervisor 响应式设计 --- */
+@media (max-width: 768px) {
+    .supervisor-card {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .supervisor-image {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .supervisor-avatar {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .supervisor-info {
+        padding: 20px;
+    }
+    
+    .supervisor-name {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .supervisor-title,
+    .supervisor-affiliation {
+        text-align: center;
+    }
+    
+    .detail-item strong {
+        width: auto;
+        display: block;
+        margin-bottom: 4px;
+    }
+    
+    .supervisor-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .supervisor-info {
+        padding: 15px;
+    }
+    
+    .supervisor-name {
+        font-size: 1.3rem;
+    }
+    
+    .link-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* --- Alumni 部分样式 --- */
+.alumni-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+
+}
+
+.alumni-section .section-title {
+    color: #6c757d;
+}
+
+
+.alumni-section .member-card {
+    position: relative;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+}
+
+.alumni-section .member-card:hover {
+    opacity: 1;
+}
+
+.alumni-section .member-card::after {
+    content: "🎓";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alumni-section .grade-title {
+    color: #6c757d;
+}
+
+/* --- Research 页面样式 --- */
+.publications-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+/* --- 论文卡片样式 --- */
+.publication-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px 120px 25px 25px; /* 右侧增加padding为badge留空间 */
+    border: 1px solid #e9ecef;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加 box-shadow 过渡 */
+    position: relative;
+    overflow: hidden;
+}
+
+.publication-card:hover {
+    transform: translateY(-4px); /* 悬浮时上移更多 */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* 悬浮时添加阴影 */
+}
+
+.publication-header {
+    margin-bottom: 15px;
+}
+
+.publication-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+}
+
+.publication-venue {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.venue-name {
+    font-weight: 600;
+    color: #4A55A2;
+    font-size: 0.95rem;
+}
+
+.publication-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    background: #f8f9fa;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.publication-content {
+    margin: 15px 0;
+}
+
+.research-area {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.authors {
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* --- 论文等级标签样式 --- */
+.publication-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    max-width: 90px; /* 限制最大宽度 */
+    text-align: center;
+}
+
+.publication-badge.ccf-a {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+}
+
+.publication-badge.ccf-b {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+}
+
+/* --- 响应式设计for Research页面 --- */
+@media (max-width: 768px) {
+    .publication-card {
+        padding: 20px 100px 20px 20px; /* 移动端也保持右侧空间 */
+    }
+    
+    .publication-title {
+        font-size: 1.1rem;
+    }
+    
+    .publication-venue {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .publication-badge {
+        top: 15px;
+        right: 15px;
+        font-size: 0.75rem;
+        padding: 4px 8px;
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .publications-grid {
+        gap: 20px;
+    }
+    
+    .publication-card {
+        padding: 15px 80px 15px 15px; /* 小屏幕上减少右侧空间 */
+    }
+    
+    .publication-title {
+        font-size: 1rem;
+    }
+    
+    .venue-name {
+        font-size: 0.9rem;
+    }
+    
+    .authors {
+        font-size: 0.85rem;
+    }
+    
+    .publication-badge {
+        top: 10px;
+        right: 10px;
+        font-size: 0.7rem;
+        padding: 3px 6px;
+        max-width: 65px;
+    }
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* 边框颜色变浅 */
+    margin-top: 35px;      /* 【关键修改】减小上边距 */
+    padding-top: 15px;     /* 【关键修改】减小上内边距 */
+    text-align: center;
+    color: #bdc3c7; /* 版权信息颜色稍微柔和一些 */
+    font-size: 0.85rem;
+}
+/* --- 页脚响应式设计 --- */
+@media (max-width: 968px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr; /* 中等屏幕两列布局 */
+        gap: 40px;
+        padding: 0 20px;
+    }
+    
+    .footer-section:first-child,
+    .footer-section:last-child {
+        padding: 15px; /* 在中等屏幕上减少内边距 */
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr; /* 移动端单列布局 */
+        gap: 30px;
+        text-align: center;
+        max-width: 600px;
+        padding: 0 20px;
+    }
+    
+    .footer-section:first-child,
+    .footer-section:last-child {
+        text-align: center; /* 移动端居中对齐 */
+        padding: 15px; /* 移动端保持一些内边距 */
+        background: rgba(255, 255, 255, 0.05); /* 移动端稍微增强背景 */
+    }
+    
+    .contact-info {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 0 15px 0; /* 移动端进一步减少内边距 */
+    }
+    
+    .footer-container {
+        gap: 20px;
+        max-width: 100%; /* 小屏幕使用全宽 */
+        padding: 0 15px;
+    }
+    
+    .footer-section h3 {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+    
+    .footer-section p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+    
+    .contact-info i {
+        font-size: 1rem;
+        width: 20px;
+    }
+}
+
+/* --- 成员模态框样式 (遵循KISS原则，简洁清晰的设计) --- */
+.member-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.member-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+}
+
+.member-modal.show .modal-content {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 30px 16px;
+    border-bottom: 1px solid #e9ecef;
+    position: sticky;
+    top: 0;
+    background: white;
+    border-radius: 16px 16px 0 0;
+    z-index: 1;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: #6c757d;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.modal-close:hover {
+    background: #f8f9fa;
+    color: #333;
+}
+
+.modal-body {
+    padding: 20px 30px 30px;
+}
+
+.modal-body h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4A55A2;
+    margin: 20px 0 12px 0;
+    border-left: 3px solid #4A55A2;
+    padding-left: 12px;
+}
+
+.modal-body h3:first-child {
+    margin-top: 0;
+}
+
+/* --- 基础信息样式 --- */
+.member-basic-info p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.member-basic-info strong {
+    color: #333;
+    font-weight: 600;
+    min-width: 80px;
+    display: inline-block;
+}
+
+.member-basic-info a {
+    color: #4A55A2;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.member-basic-info a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* --- 研究兴趣标签样式 --- */
+.research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.research-tag {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #1976d2;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid #e1f5fe;
+    transition: all 0.2s ease;
+}
+
+.research-tag:hover {
+    background: linear-gradient(135deg, #bbdefb, #90caf9);
+    transform: translateY(-1px);
+}
+
+/* --- 教育背景和个人简介样式 --- */
+.member-education p,
+.member-bio p {
+    margin: 8px 0 0 0;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* --- 成就列表样式 --- */
+.member-achievements ul {
+    margin: 8px 0 0 0;
+    padding-left: 20px;
+    color: #555;
+}
+
+.member-achievements li {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* --- 可点击头像样式增强 (遵循界面一致性原则) --- */
+.clickable-avatar {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.clickable-avatar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(74, 85, 162, 0.3);
+}
+
+.clickable-avatar::after {
+    content: '👁️';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(74, 85, 162, 0.9);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.clickable-avatar:hover::after {
+    opacity: 1;
+}
+
+/* --- 模态框响应式设计 --- */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        max-height: 90vh;
+        margin: 20px;
+    }
+    
+    .modal-header {
+        padding: 20px 20px 14px;
+    }
+    
+    .modal-header h2 {
+        font-size: 1.3rem;
+    }
+    
+    .modal-body {
+        padding: 16px 20px 24px;
+    }
+    
+    .modal-body h3 {
+        font-size: 1rem;
+        margin: 16px 0 10px 0;
+    }
+    
+    .member-basic-info strong {
+        min-width: auto;
+        display: block;
+        margin-bottom: 2px;
+    }
+    
+    .research-tags {
+        gap: 6px;
+    }
+    
+    .research-tag {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        width: 98%;
+        max-height: 95vh;
+        border-radius: 12px;
+    }
+    
+    .modal-header {
+        padding: 16px 16px 12px;
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .modal-header h2 {
+        font-size: 1.2rem;
+    }
+    
+    .modal-close {
+        width: 28px;
+        height: 28px;
+        font-size: 1.6rem;
+    }
+    
+    .modal-body {
+        padding: 14px 16px 20px;
+    }
+    
+    .modal-body h3 {
+        font-size: 0.95rem;
+        margin: 14px 0 8px 0;
+        padding-left: 10px;
+    }
+    
+    .member-basic-info p,
+    .member-education p,
+    .member-bio p {
+        font-size: 0.9rem;
+    }
+    
+    .member-achievements li {
+        font-size: 0.9rem;
+    }
+    
+    .research-tag {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+}
