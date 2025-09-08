@@ -45,6 +45,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (menuToggle && navLinks) {
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('is-active'); // 添加这行
+        });
+
+        // 点击链接后关闭菜单
+        const links = navLinks.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('is-active'); // 同时也要在这里移除
+            });
         });
     }
 });

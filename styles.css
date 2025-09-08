@@ -14,6 +14,8 @@ body {
     display: flex;
     justify-content: space-between; /* 两端对齐 */
     align-items: center;
+    position: relative; /* 确保 z-index 生效 */
+    z-index: 1000; /* 提高层级，确保在最上层 */
 }
 
 .navbar .logo {
