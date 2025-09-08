@@ -39,23 +39,7 @@ jlu-neo-lab.github.io/
 
 ### 1. 本地运行
 
-由于网站使用了ES6模块和fetch API，需要通过HTTP服务器运行：
-
-```bash
-# 使用Python 3
-python -m http.server 8000
-
-# 使用Python 2
-python -m SimpleHTTPServer 8000
-
-# 使用Node.js http-server
-npx http-server
-
-# 使用PHP
-php -S localhost:8000
-```
-
-然后在浏览器中访问 `http://localhost:8000/LamdaLab.html`
+在浏览器中访问 `http://localhost:8000/LamdaLab.html`
 
 ### 2. 部署到GitHub Pages
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News - Neo Lab</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <style>
         /* 简约新闻页面样式 */
         .logo-container {
@@ -224,10 +224,10 @@
     <div id="footer-container"></div>
     
     <!-- 导入模块化JavaScript文件 -->
-    <script src="js/component-loader.js"></script>
-    <script src="js/news-data.js"></script>
-    <script src="js/news-modal.js"></script>
-    <script src="js/language-manager.js"></script>
+    <script src="../js/component-loader.js"></script>
+    <script src="../js/news-data.js"></script>
+    <script src="../js/news-modal.js"></script>
+    <script src="../js/language-manager.js"></script>
     
     <!-- 页面初始化和分页功能 -->
     <script>
@@ -359,7 +359,7 @@
             // 加载页脚组件
             const footerContainer = document.getElementById('footer-container');
             if (footerContainer && window.ComponentLoader) {
-                window.ComponentLoader.loadComponent('footer-container', 'footer.html');
+                window.ComponentLoader.loadComponent('footer-container', './footer.html');
             }
             
             // 初始化新闻数据和分页
