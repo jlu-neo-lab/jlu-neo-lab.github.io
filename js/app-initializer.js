@@ -37,6 +37,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.LanguageManager) {
         window.LanguageManager.updatePageLanguage();
     }
+
+    // 移动端菜单切换
+    const menuToggle = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    }
 });
 
 // 导出初始化函数

@@ -47,6 +47,21 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* --- 汉堡菜单样式 --- */
+.menu-toggle {
+    display: none; /* 默认隐藏 */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
 /* --- 主内容区域样式 --- */
 .main-container {
     max-width: 1200px;
@@ -136,11 +151,33 @@ body {
 /* 当屏幕宽度小于 768px (例如平板) */
 @media (max-width: 768px) {
     .navbar {
+        flex-direction: row; /* 保持logo和汉堡菜单在同一行 */
+        justify-content: space-between;
+    }
+    
+    .menu-toggle {
+        display: flex; /* 在移动端显示汉堡菜单 */
+    }
+
+    .nav-links {
+        display: none; /* 隐藏原始导航链接 */
         flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px; /* 根据你的navbar高度调整 */
+        left: 0;
+        background-color: #4A55A2;
+        text-align: center;
     }
-    .navbar .nav-links {
-        margin-top: 15px;
+
+    .nav-links.active {
+        display: flex; /* 点击后显示 */
     }
+
+    .navbar .nav-links li {
+        margin: 15px 0;
+    }
+    
     .section-title {
         font-size: 2rem;
     }
@@ -843,13 +880,13 @@ body {
 /* --- 模态框响应式设计 --- */
 @media (max-width: 768px) {
     .modal-content {
-        width: 95%;
-        max-height: 90vh;
-        margin: 20px;
+        width: 90%; /* 稍微增加宽度 */
+        max-height: 85vh; /* 限制最大高度 */
+        margin: 0; /* 移除外边距 */
     }
     
     .modal-header {
-        padding: 20px 20px 14px;
+        padding: 20px 24px 14px; /* 调整内边距 */
     }
     
     .modal-header h2 {
@@ -857,12 +894,12 @@ body {
     }
     
     .modal-body {
-        padding: 16px 20px 24px;
+        padding: 16px 24px 24px; /* 调整内边距 */
     }
     
     .modal-body h3 {
         font-size: 1rem;
-        margin: 16px 0 10px 0;
+        margin: 18px 0 10px 0; /* 调整外边距 */
     }
     
     .member-basic-info strong {
@@ -872,7 +909,7 @@ body {
     }
     
     .research-tags {
-        gap: 6px;
+        gap: 8px; /* 调整标签间距 */
     }
     
     .research-tag {
@@ -883,8 +920,8 @@ body {
 
 @media (max-width: 480px) {
     .modal-content {
-        width: 98%;
-        max-height: 95vh;
+        width: 95%; /* 在非常小的屏幕上几乎占满 */
+        max-height: 90vh;
         border-radius: 12px;
     }
     
@@ -894,7 +931,7 @@ body {
     }
     
     .modal-header h2 {
-        font-size: 1.2rem;
+        font-size: 1.15rem; /* 减小标题字体 */
     }
     
     .modal-close {
