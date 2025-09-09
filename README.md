@@ -4,36 +4,12 @@
 
 这是吉林大学神经优化实验室（NeO Lab）的官方网站，用于展示实验室成员、研究成果、项目和新闻动态。网站采用纯HTML、CSS、JavaScript构建，具有中英文双语支持和响应式设计。
 
-## 文件结构
+## 联系方式
 
-```
-jlu-neo-lab.github.io/
-├── LamdaLab.html              # 主页面（团队成员页）
-├── research.html              # 研究成果页面
-├── projects.html              # 项目展示页面
-├── news.html                  # 新闻动态页面
-├── footer.html                # 页脚组件
-├── styles.css                 # 主样式文件
-├── components.js              # 主要组件和功能
-├── components-new.js          # 新版组件文件
-├── components.js.backup       # 组件备份文件
-├── js/                        # JavaScript模块目录
-│   ├── app-initializer.js     # 应用初始化
-│   ├── component-loader.js    # 组件加载器
-│   ├── language-manager.js    # 语言管理器
-│   ├── member-modal.js        # 成员详情模态框
-│   ├── project-modal.js       # 项目详情模态框
-│   ├── research-modal.js      # 研究详情模态框
-│   ├── news-modal.js          # 新闻详情模态框
-│   └── data/                  # 数据文件目录
-│       ├── member-data.js     # 成员信息数据
-│       ├── news-data.js       # 新闻数据
-│       ├── project-data.js    # 项目数据
-│       └── research-data.js   # 研究论文数据
-├── static/                    # 静态资源目录
-│   └── avator/               # 头像图片目录
-└── README.md                 # 本文档
-```
+仍有问题请联系：
+skippy1010177@gmail.com
+
+## 文件结构
 
 ## 快速开始
 
@@ -272,11 +248,6 @@ const researchDetails = {
 
 目前使用 `https://via.placeholder.com/` 作为占位图片，建议替换为实际图片。
 
-
-## 联系方式
-
-仍有问题请联系：
-skippy1010177@gmail.com
 
 
 ## 更新日志
