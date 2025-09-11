@@ -244,11 +244,15 @@
     .supervisor-image {
         width: 100%;
         padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .supervisor-avatar {
         width: 120px;
         height: 120px;
+        margin: 0 auto;
     }
     
     .supervisor-info {
@@ -296,6 +300,19 @@
     }
     .member-card .info {
         font-size: 0.8rem; /* 调整信息字体大小 */
+    }
+    
+    .supervisor-image {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .supervisor-avatar {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
     }
     
     .supervisor-info {
