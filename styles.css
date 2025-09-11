@@ -9,7 +9,7 @@ body {
 
 /* --- 导航栏样式 --- */
 .navbar {
-    background-color: #4A55A2; /* 参考图中的深蓝色 */
+    background-color: #11a0e5; /* 参考图中的深蓝色 */
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between; /* 两端对齐 */

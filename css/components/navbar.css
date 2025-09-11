@@ -118,7 +118,7 @@
         right: -100%; /* 初始状态在屏幕右侧外 */
         width: 300px;
         height: 100vh;
-        background: linear-gradient(135deg, #4A55A2, #5a67d8);
+        background: linear-gradient(135deg, #4A55A2,s #5a67d8);
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;

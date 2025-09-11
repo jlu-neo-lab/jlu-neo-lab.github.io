@@ -13,6 +13,14 @@
     line-height: 1.2;
 }
 
+/* Logo 图片样式 */
+.logo-container .logo-image {
+    height: 50px;
+    max-width: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
 .logo-subtitle {
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.8);
@@ -26,5 +34,10 @@
     .logo-subtitle {
         font-size: 0.65rem;
         margin-top: 1px;
+    }
+    
+    .logo-container .logo-image {
+        height: 52px;
+        max-width: 160px;
     }
 }
