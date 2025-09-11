@@ -97,12 +97,32 @@ const newsData = {
 
 ### 添加新项目
 
+在 pages/research.html 中添加项目卡片
+
 在 `js/data/project-data.js` 中添加新项目：
 
+```html
+     <!-- 项目卡片1 -->
+                <div class="publication-card clickable-project" data-project="smart-scheduling">
+                    <div class="publication-header">
+                        <h3 class="publication-title" data-en="Intelligent Workshop Scheduling Optimization System" data-zh="智能车间调度优化系统">Intelligent Workshop Scheduling Optimization System</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">Production System</span>
+                            <span class="publication-date">2024-Present</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area" data-en="Industrial Optimization" data-zh="工业优化">Industrial Optimization</p>
+                        <p class="authors" data-en="This project develops an intelligent workshop scheduling optimization system based on deep reinforcement learning and graph neural networks. The system can process complex job scheduling problems in real-time, significantly improving production efficiency and resource utilization." data-zh="本项目基于深度强化学习和图神经网络，开发了一套智能车间调度优化系统。该系统能够实时处理复杂的作业调度问题，显著提高生产效率和资源利用率。">This project develops an intelligent workshop scheduling optimization system based on deep reinforcement learning and graph neural networks. The system can process complex job scheduling problems in real-time, significantly improving production efficiency and resource utilization.</p>
+                    </div>
+                    <div class="publication-badge ccf-a">Active</div>
+                </div>
+```
+
 ```javascript
+
 const projectDetails = {
     // 现有项目...
-    
     'new-project-id': {
         name: {
             en: 'Project English Name',
@@ -128,6 +148,28 @@ const projectDetails = {
 ```
 
 ### 添加研究论文
+
+
+在 pages/research.html 中添加论文卡片
+
+```html
+<!-- 论文卡片 -->
+                <div class="publication-card clickable-research" data-research="dual-operation-aggregation">
+                    <div class="publication-header">
+                        <h3 class="publication-title">Dual Operation Aggregation Graph Neural Networks for Solving Flexible Job-Shop Scheduling Problem with Reinforcement Learning</h3>
+                        <div class="publication-venue">
+                            <span class="venue-name">WWW</span>
+                            <span class="publication-date">2025-05</span>
+                        </div>
+                    </div>
+                    <div class="publication-content">
+                        <p class="research-area">Combinatorial Optimization(组合优化)</p>
+                        <p class="authors">Peng Zhao, You Zhou, Di Wang, Zhiguang Cao, Yubin Xiao, Xuan Wu, Yuanshu Li, Hongjia Liu, Wei Du, Yuan Jiang, Liupu Wang</p>
+                    </div>
+                    <div class="publication-badge ccf-a">CCF A</div>
+                </div>
+
+```
 
 在 `js/data/research-data.js` 中添加新论文：
 
@@ -172,35 +214,6 @@ const researchDetails = {
 - 支持分类和标签
 - 按时间倒序排列
 
-## 样式定制
-
-### 颜色主题
-
-在 `styles.css` 中可以修改主要颜色：
-
-```css
-:root {
-    --primary-color: #2c3e50;    /* 主色调 */
-    --secondary-color: #3498db;  /* 次要色调 */
-    --accent-color: #e74c3c;     /* 强调色 */
-    --text-color: #333;          /* 文字颜色 */
-    --bg-color: #f8f9fa;         /* 背景色 */
-}
-```
-
-### 响应式断点
-
-```css
-/* 平板设备 */
-@media (max-width: 768px) {
-    /* 样式调整 */
-}
-
-/* 手机设备 */
-@media (max-width: 480px) {
-    /* 样式调整 */
-}
-```
 
 ## 语言管理
 
