@@ -1,0 +1,23 @@
+{
+  "name": "jlu-neo-lab-website",
+  "version": "1.0.0",
+  "description": "JLU NeO Lab 官方网站",
+  "main": "index.html",
+  "scripts": {
+    "read-excel": "node excel-reader.js",
+    "read-excel-with-path": "node excel-reader.js ./实验室网页.xlsx",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "lab-website",
+    "academic",
+    "research",
+    "jlu"
+  ],
+  "author": "JLU NeO Lab",
+  "license": "MIT"
+}

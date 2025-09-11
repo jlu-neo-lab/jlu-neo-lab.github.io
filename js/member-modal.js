@@ -125,17 +125,12 @@ function initializeAvatarClicks() {
 
 // 工具函数：从姓名生成成员ID (遵循DRY原则，避免重复逻辑)
 function generateMemberIdFromName(nameText) {
-    // 提取英文名字并转换为小写ID
-    const match = nameText.match(/^(\w+)\s+(\w+)/);
-    if (match) {
-        return match[1].toLowerCase() + match[2].toLowerCase();
-    }
-    // 回退方案：使用中文名
-    const chineseMatch = nameText.match(/\((.+)\)/);
-    if (chineseMatch) {
-        return chineseMatch[1].replace(/\s+/g, '');
-    }
-    return 'unknown';
+    // 提取中文名（在括号中）
+    const chineseMatch = nameText.match(/\(([^)]+)\)/);
+    const chineseName = chineseMatch ? chineseMatch[1] : nameText;
+    
+    // 直接使用中文姓名作为 ID，移除空格和特殊字符
+    return chineseName.replace(/[^\u4e00-\u9fa5a-zA-Z]/g, '');
 }
 
 // 导出函数
