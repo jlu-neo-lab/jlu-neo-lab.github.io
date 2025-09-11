@@ -529,8 +529,7 @@ const memberProfiles = {
         "year": "2018 to now",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
-            "Doctor of Engineering in Computer Applied Technology",
-            "Research Interests: Image Processing",
+            "Image Processing",
             "Medical Imaging",
             "Computer Vision",
             "AI",
@@ -538,7 +537,7 @@ const memberProfiles = {
             "Deep Learning."
         ],
         "email": "mhassandev@gmail.com",
-        "bio": "Muhammad Hassan是NeO Lab团队的重要成员。"
+        "bio":  "Doctor of Engineering in Computer Applied Technology"
     },
     "杨森": {
         "name": "杨森",
