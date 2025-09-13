@@ -4,7 +4,7 @@
 const memberProfiles = {
     "肖钰彬": {
         "name": "肖钰彬",
-        "year": "2021 to now",
+        "year": "2021 to 2025",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization"
@@ -486,7 +486,7 @@ const memberProfiles = {
     },
     "王冶": {
         "name": "王冶",
-        "year": "2019 to now",
+        "year": "2019 to 2022",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "AIGC MLLM"
@@ -496,7 +496,7 @@ const memberProfiles = {
     },
     "焦树扬": {
         "name": "焦树扬",
-        "year": "2021 to now",
+        "year": "2021 to 2024",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "GNN AI4Science"
@@ -506,7 +506,7 @@ const memberProfiles = {
     },
     "王依章": {
         "name": "王依章",
-        "year": "2016 to now",
+        "year": "2016 to 2020",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "人工智能教育"
@@ -516,7 +516,7 @@ const memberProfiles = {
     },
     "于昆平": {
         "name": "于昆平",
-        "year": "2021 to now",
+        "year": "2021 to 2024",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
@@ -526,7 +526,7 @@ const memberProfiles = {
     },
     "MuhammadHassan": {
         "name": "Muhammad Hassan",
-        "year": "2018 to now",
+        "year": "2018 to 2022",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "Image Processing",
@@ -541,7 +541,7 @@ const memberProfiles = {
     },
     "杨森": {
         "name": "杨森",
-        "year": "2015 to now",
+        "year": "2015 to 2018",
         "department": "School of Software",
         "researchInterests": [
             "生物信息"
@@ -551,7 +551,7 @@ const memberProfiles = {
     },
     "郭泽洋": {
         "name": "郭泽洋",
-        "year": "2021 to now",
+        "year": "2021 to 2024",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "CV"
@@ -561,7 +561,7 @@ const memberProfiles = {
     },
     "郭茗涵": {
         "name": "郭茗涵",
-        "year": "2017 to now",
+        "year": "2017 to 2020",
         "department": "School of Software",
         "researchInterests": [
             "语音识别",
@@ -572,7 +572,7 @@ const memberProfiles = {
     },
     "田新亮": {
         "name": "田新亮",
-        "year": "2015 to now",
+        "year": "2015 to 2018",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "组合优化",
@@ -583,7 +583,7 @@ const memberProfiles = {
     },
     "杨文哲": {
         "name": "杨文哲",
-        "year": "2017 to now",
+        "year": "2017 to 2020",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "大数据管理与分析"
@@ -593,7 +593,7 @@ const memberProfiles = {
     },
     "耿昭阳": {
         "name": "耿昭阳",
-        "year": "2016 to now",
+        "year": "2016 to 2019",
         "department": "School of Computer Science and Technology",
         "researchInterests": [
             "大数据"
