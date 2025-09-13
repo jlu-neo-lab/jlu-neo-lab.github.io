@@ -22,7 +22,7 @@ const memberProfiles = {
             "Evolutionary Computation"
         ],
         "email": "xuanwu7@outlook.com",
-        "bio": "Xuan Wu received his B.Sc. degree from the College of Computer Science and Technology, Jilin University, China, in 2020. From November 2023 to November 2024, he was a visiting student at the College of Computing and Data Science, Nanyang Technological University, Singapore. He is currently pursuing his Ph.D. degree at Jilin University."
+        "bio": "Xuan Wu received his B.Sc. degree from the College of Computer Science and Technology, Jilin University, China, in 2020. From November 2023 to November 2024, he was a visiting student at the College of Computing and Data Science, Nanyang Technological University, Singapore. He is currently pursuing his Ph.D. degree at Jilin University. Welcome to my research homepage: https://wuuu110.github.io/"
     },
     "赵鹏": {
         "name": "赵鹏",
