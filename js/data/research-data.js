@@ -63,7 +63,7 @@ const researchDetails = {
         authors: 'Hang Gao, Cheng Liu, Hongming Sun, Gaoyang Li, Ying Li, You Zhou, Wei Du',
         abstract: '.',
         paperLink: 'https://www.sciencedirect.com/science/article/abs/pii/S0031320325008271'
-    }
+    },
 'Chi_llm': {
         title: 'A Generalized Neural Solver based on LLM-guided Heuristic Evolution Framework for Solving Diverse Variants of Vehicle Routing Problems',
         venue: 'Expert Systems with Applications',
