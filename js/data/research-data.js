@@ -49,7 +49,7 @@ const researchDetails = {
         paperLink: 'https://example.com/paper2'
     },
     'distilling-autoregressive-models': {
-        title: 'Distilling autoregressive models to obtain high-performance non-autoregressive solvers for vehicle routing problems with faster inference speed',
+        title: 'Distilling Autoregressive Models to Obtain High-performance Non-autoregressive Solvers for Vehicle Routing Problems with Faster Inference Speed',
         venue: 'AAAI',
         date: '2024',
         authors: 'Yubin Xiao, Di Wang, Boyang Li, Mingzhao Wang, Xuan Wu, Changliang Zhou, You Zhou',
@@ -84,7 +84,7 @@ const researchDetails = {
         title: 'Improving Generalization of Neural Vehicle Routing Problem Solvers through the Lens of Model Architecture',
         venue: 'Neural Networks',
         date: '2025',
-        authors: 'Yubin Xiao, Di Wang, Xuan Wu*, Yuesong Wu, Boyang Li, Wei Du, Liupu Wang, and You Zhou',
+        authors: 'Yubin Xiao, Di Wang, Xuan Wu, Yuesong Wu, Boyang Li, Wei Du, Liupu Wang, and You Zhou',
         abstract: '.',
         paperLink: 'https://www.sciencedirect.com/science/article/abs/pii/S089360802500259X'
     }
@@ -124,12 +124,12 @@ const researchDetails = {
         title: 'Incorporating Surprisingly Popular Algorithm and Euclidean Distance-based Adaptive Topology into PSO',
         venue: 'Swarm and Evolutionary Computation',
         date: '2022',
-        authors: 'Xuan Wu, Jizong Han, Di Wang, Pengyue Gao, Quanlong Cui, Liang Chen, Yanchun Liang, Han Huang, Heow Pueh Lee, Chunyan Miao, You Zhou, Chunguo Wu*',
+        authors: 'Xuan Wu, Jizong Han, Di Wang, Pengyue Gao, Quanlong Cui, Liang Chen, Yanchun Liang, Han Huang, Heow Pueh Lee, Chunyan Miao, You Zhou, Chunguo Wu',
         abstract: 'We enhance Particle Swarm Optimization (PSO) by integrating the "surprisingly popular" algorithm and an adaptive topology based on Euclidean distance, leading to improved performance in complex optimization landscapes.',
         paperLink: 'https://www.sciencedirect.com/science/article/pii/S2210650222001882'
     }
 'IPAS': {
-        title: 'IPAS-Net: A deep-learning model for generating high-fidelity shoeprints from low-quality images with no natural references',
+        title: 'IPAS-Net: A Deep-learning Model for Generating High-fidelity Shoeprints from Low-quality Images with No Natural References',
         venue: 'Journal of King Saud University-Computer and Information Sciences',
         date: '2022',
         authors: 'Muhammad Hassan, Di Wang, Pang Wei, Di Wang, Daixi Li, You Zhou, Dong Xu',
@@ -137,7 +137,7 @@ const researchDetails = {
         paperLink: 'https://www.sciencedirect.com/science/article/abs/pii/S0020025522013822'
     }
 'Hassan': {
-        title: 'Restorable-inpainting: A novel deep learning approach for shoeprint restoration',
+        title: 'Restorable-inpainting: A Novel Deep Learning Approach for Shoeprint Restoration',
         venue: 'Information Sciences',
         date: '2022',
         authors: 'Muhammad Hassan, Yan Wang, Di Wang, Wei Pang, Kangping Wang, Daixi Li, You Zhou, Dong Xu',
