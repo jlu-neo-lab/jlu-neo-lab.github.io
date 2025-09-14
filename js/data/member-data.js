@@ -5,7 +5,7 @@ const memberProfiles = {
     "肖钰彬": {
         "name": "肖钰彬",
         "year": "2021 to 2025",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -15,7 +15,7 @@ const memberProfiles = {
     "吴翾": {
         "name": "吴翾",
         "year": "2022 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization",
             "Large Language Models",
@@ -27,7 +27,7 @@ const memberProfiles = {
     "赵鹏": {
         "name": "赵鹏",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization",
             "Scheduling problem."
@@ -38,7 +38,7 @@ const memberProfiles = {
     "李沅书": {
         "name": "李沅书",
         "year": "2024 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -48,7 +48,7 @@ const memberProfiles = {
     "尚泽宽": {
         "name": "尚泽宽",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization",
             "EDA",
@@ -60,7 +60,7 @@ const memberProfiles = {
     "李子柔": {
         "name": "李子柔",
         "year": "2023 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "CV"
         ],
@@ -70,7 +70,7 @@ const memberProfiles = {
     "刘瑞恺": {
         "name": "刘瑞恺",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -80,7 +80,7 @@ const memberProfiles = {
     "王天放": {
         "name": "王天放",
         "year": "2023 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Neural Combinatorial Optimization",
             "Generative Flow Network"
@@ -91,7 +91,7 @@ const memberProfiles = {
     "吴岳松": {
         "name": "吴岳松",
         "year": "2023 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -101,7 +101,7 @@ const memberProfiles = {
     "李昀朔": {
         "name": "李昀朔",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -111,7 +111,7 @@ const memberProfiles = {
     "迟敏言": {
         "name": "迟敏言",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -121,7 +121,7 @@ const memberProfiles = {
     "王贺桥": {
         "name": "王贺桥",
         "year": "2023 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -131,7 +131,7 @@ const memberProfiles = {
     "史浩霖": {
         "name": "史浩霖",
         "year": "2023 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "CV"
         ],
@@ -141,7 +141,7 @@ const memberProfiles = {
     "薛健": {
         "name": "薛健",
         "year": "2323 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Cv"
         ],
@@ -151,7 +151,7 @@ const memberProfiles = {
     "汪伟城": {
         "name": "汪伟城",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "CV"
         ],
@@ -161,7 +161,7 @@ const memberProfiles = {
     "吴赫铭": {
         "name": "吴赫铭",
         "year": "2023 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "CV"
         ],
@@ -171,7 +171,7 @@ const memberProfiles = {
     "张宇尧": {
         "name": "张宇尧",
         "year": "2023 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -181,7 +181,7 @@ const memberProfiles = {
     "王大鹏": {
         "name": "王大鹏",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "CV"
         ],
@@ -191,7 +191,7 @@ const memberProfiles = {
     "钱俊杰": {
         "name": "钱俊杰",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "CV"
         ],
@@ -201,7 +201,7 @@ const memberProfiles = {
     "宋举鹏": {
         "name": "宋举鹏",
         "year": "2023 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "CV"
         ],
@@ -211,7 +211,7 @@ const memberProfiles = {
     "彭杰": {
         "name": "彭杰",
         "year": "2024 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Large Language Models",
             "AI Infra"
@@ -222,7 +222,7 @@ const memberProfiles = {
     "曹智宇": {
         "name": "曹智宇",
         "year": "2024 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Large Language Models",
             "RAG"
@@ -233,7 +233,7 @@ const memberProfiles = {
     "王拓淤": {
         "name": "王拓淤",
         "year": "2024 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization",
             "Large Language Models",
@@ -245,7 +245,7 @@ const memberProfiles = {
     "曾声军": {
         "name": "曾声军",
         "year": "2024 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Vision"
         ],
@@ -255,7 +255,7 @@ const memberProfiles = {
     "王佳琦": {
         "name": "王佳琦",
         "year": "2024 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Neural Combinatorial Optimization",
             "Scheduling problem."
@@ -266,7 +266,7 @@ const memberProfiles = {
     "张传卓": {
         "name": "张传卓",
         "year": "2024 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "3D Human Pose Estimation"
         ],
@@ -276,7 +276,7 @@ const memberProfiles = {
     "孙淑静": {
         "name": "孙淑静",
         "year": "2024 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "cv"
         ],
@@ -286,7 +286,7 @@ const memberProfiles = {
     "马婕": {
         "name": "马婕",
         "year": "2024 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "NCO"
         ],
@@ -296,7 +296,7 @@ const memberProfiles = {
     "曹瑞": {
         "name": "曹瑞",
         "year": "2024 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -306,7 +306,7 @@ const memberProfiles = {
     "齐开放": {
         "name": "齐开放",
         "year": "2024 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
@@ -316,7 +316,7 @@ const memberProfiles = {
     "张毅宇": {
         "name": "张毅宇",
         "year": "2024 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Large Language Models",
             "RAG"
@@ -327,7 +327,7 @@ const memberProfiles = {
     "姜苏桐": {
         "name": "姜苏桐",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -337,7 +337,7 @@ const memberProfiles = {
     "李福硕": {
         "name": "李福硕",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -347,7 +347,7 @@ const memberProfiles = {
     "申鹏赟": {
         "name": "申鹏赟",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -357,7 +357,7 @@ const memberProfiles = {
     "王艳": {
         "name": "王艳",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -367,7 +367,7 @@ const memberProfiles = {
     "张海洋": {
         "name": "张海洋",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -377,7 +377,7 @@ const memberProfiles = {
     "张校彭": {
         "name": "张校彭",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -387,7 +387,7 @@ const memberProfiles = {
     "姜轶凡": {
         "name": "姜轶凡",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -397,7 +397,7 @@ const memberProfiles = {
     "张伟怡": {
         "name": "张伟怡",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -407,7 +407,7 @@ const memberProfiles = {
     "王世瑾": {
         "name": "王世瑾",
         "year": "2025 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -417,7 +417,7 @@ const memberProfiles = {
     "周时": {
         "name": "周时",
         "year": "2025 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -427,7 +427,7 @@ const memberProfiles = {
     "樊明磊": {
         "name": "樊明磊",
         "year": "2025 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -437,7 +437,7 @@ const memberProfiles = {
     "林一豪": {
         "name": "林一豪",
         "year": "2025 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -447,7 +447,7 @@ const memberProfiles = {
     "李佳锴": {
         "name": "李佳锴",
         "year": "2025 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -457,7 +457,7 @@ const memberProfiles = {
     "王浩": {
         "name": "王浩",
         "year": "2025 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -467,7 +467,7 @@ const memberProfiles = {
     "肖堃": {
         "name": "肖堃",
         "year": "2025 to now",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "Computer Science"
         ],
@@ -477,7 +477,7 @@ const memberProfiles = {
     "张朔榕": {
         "name": "张朔榕",
         "year": "2025 to now",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -487,7 +487,7 @@ const memberProfiles = {
     "王冶": {
         "name": "王冶",
         "year": "2019 to 2022",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "AIGC MLLM"
         ],
@@ -497,7 +497,7 @@ const memberProfiles = {
     "焦树扬": {
         "name": "焦树扬",
         "year": "2021 to 2024",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "GNN AI4Science"
         ],
@@ -507,7 +507,7 @@ const memberProfiles = {
     "王依章": {
         "name": "王依章",
         "year": "2016 to 2020",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "人工智能教育"
         ],
@@ -517,7 +517,7 @@ const memberProfiles = {
     "于昆平": {
         "name": "于昆平",
         "year": "2021 to 2024",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Computer Science"
         ],
@@ -527,7 +527,7 @@ const memberProfiles = {
     "MuhammadHassan": {
         "name": "Muhammad Hassan",
         "year": "2018 to 2022",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "Image Processing",
             "Medical Imaging",
@@ -542,7 +542,7 @@ const memberProfiles = {
     "杨森": {
         "name": "杨森",
         "year": "2015 to 2018",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "生物信息"
         ],
@@ -552,7 +552,7 @@ const memberProfiles = {
     "郭泽洋": {
         "name": "郭泽洋",
         "year": "2021 to 2024",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "CV"
         ],
@@ -562,7 +562,7 @@ const memberProfiles = {
     "郭茗涵": {
         "name": "郭茗涵",
         "year": "2017 to 2020",
-        "department": "School of Software",
+        "department": "College of Software",
         "researchInterests": [
             "语音识别",
             "声纹识别"
@@ -573,7 +573,7 @@ const memberProfiles = {
     "田新亮": {
         "name": "田新亮",
         "year": "2015 to 2018",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "组合优化",
             "整车控制"
@@ -584,7 +584,7 @@ const memberProfiles = {
     "杨文哲": {
         "name": "杨文哲",
         "year": "2017 to 2020",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "大数据管理与分析"
         ],
@@ -594,7 +594,7 @@ const memberProfiles = {
     "耿昭阳": {
         "name": "耿昭阳",
         "year": "2016 to 2019",
-        "department": "School of Computer Science and Technology",
+        "department": "College of Computer Science and Technology",
         "researchInterests": [
             "大数据"
         ],
