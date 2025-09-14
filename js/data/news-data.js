@@ -20,8 +20,7 @@ const newsData = {
         },
         image: 'https://via.placeholder.com/600x300',
         tags: ['Team', 'Welcome']
-    },
-   
+    }
 };
 
 // 导出数据
