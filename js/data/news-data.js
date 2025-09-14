@@ -2,26 +2,25 @@
 const newsData = {
     'team-expansion-2025': {
         title: {
-            en: 'NeO Lab's official website has launched!!',
-            zh: 'NeO实验室的官方网站上线啦！！'
+            en: 'NeO Lab Welcomes New PhD Students in 2025',
+            zh: 'Lambda实验室2025年迎来新博士生'
         },
-        date: '2025-9-15',
+        date: '2025-01-15',
         category: {
             en: 'Team News',
             zh: '团队动态'
         },
         summary: {
-            en: 'We are pleased to announce the official launch of our laboratory’s website, where we will share our research achievements.',
-            zh: '我们很高兴我们实验室的官方网站正式上线，在这里我们将分享我们的研究成果。'
+            en: 'We are excited to welcome new PhD students joining our research team this year, bringing fresh perspectives to our ongoing projects.',
+            zh: '我们很高兴迎来今年加入研究团队的新博士生，他们为我们正在进行的项目带来了新的视角。'
         },
         content: {
-            en: 'We are pleased to announce the official launch of our laboratory website. Our principal research interests lie in Neural Combinatorial Optimization (the use of neural models to tackle combinatorial optimization problems) and in the applications of large language models (LLMs), with particular emphasis on automated code generation. Through this website, we aim to share our findings with the broader community and foster collaboration.',
-            zh: '我们荣幸地宣布实验室网站正式上线。我们的主要研究方向为神经组合优化（利用神经模型解决组合优化问题）以及大型语言模型 (LLM) 的应用，尤其侧重于自动代码生成。通过此网站，我们旨在与更广泛的社区分享我们的研究成果，并促进合作。'
+            en: 'NeO Lab is thrilled to announce the arrival of our newest PhD students for the 2025 academic year. These talented researchers bring diverse backgrounds in machine learning, optimization, and artificial intelligence. We look forward to their contributions to our ongoing research in combinatorial optimization, neural architecture search, and large language models.',
+            zh: 'Lambda实验室很高兴宣布2025学年新博士生的到来。这些才华横溢的研究人员在机器学习、优化和人工智能方面拥有不同的背景。我们期待他们在组合优化、神经架构搜索和大语言模型等正在进行的研究中做出贡献。'
         },
         image: 'https://via.placeholder.com/600x300',
-        tags: ['Team', 'Welcome']
+        tags: ['Team', 'PhD Students', 'Welcome']
     },
-    ,
     'kdd-paper-accepted': {
         title: {
             en: 'Paper Accepted at KDD 2025',
@@ -128,7 +127,6 @@ const newsData = {
         tags: ['Awards', 'Students', 'Recognition', 'Excellence']
     }
 };
-};
 
 // 导出数据
 if (typeof module !== 'undefined' && module.exports) {
@@ -136,3 +134,4 @@ if (typeof module !== 'undefined' && module.exports) {
 } else if (typeof window !== 'undefined') {
     window.NewsData = { newsData };
 }
+
