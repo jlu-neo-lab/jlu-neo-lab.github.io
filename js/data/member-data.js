@@ -10,7 +10,7 @@ const memberProfiles = {
             "Neural Combinatorial Optimization"
         ],
         "email": "xiaoyb21@mails.jlu.edu.cn",
-        "bio": "OOM"
+        "bio": "OOM -_-! Welcome to my research homepage: https://xybfight.github.io/"
     },
     "吴翾": {
         "name": "吴翾",
@@ -217,7 +217,7 @@ const memberProfiles = {
             "AI Infra"
         ],
         "email": "hi@nohup.life",
-        "bio": "彭杰是NeO Lab团队的重要成员。"
+        "bio": "https://blog.nohup.life"
     },
     "曹智宇": {
         "name": "曹智宇",
@@ -492,7 +492,7 @@ const memberProfiles = {
             "AIGC MLLM"
         ],
         "email": "yewang22@mails.jlu.edu.cn",
-        "bio": "Ye Wang is currently a third-year Ph.D. student in the ICL Group at the School of Artificial Intelligence, Jilin University, under the supervision of Associate Professor Rui Ma. He also receives mentorship from Research Scientist Yilin Wang at Adobe and Associate Professor Zili Yi at Nanjing University. His research primarily centers on personalized visual content creation, including image style transfer, image editing, image customization, video content generation, and 3D vision. He is dedicated to leveraging advanced artificial intelligence techniques to enable more personalized, flexible, and expressive visual content generation that caters to diverse user needs and creative expression. Ye Wang holds a Bachelor's degree from Dalian Maritime University and a Master's degree from the School of Computer Science at Jilin University. He has also gained valuable practical experience through internships at JD.com, Baidu, and Kunlun Tech. In addition to his academic work, he is the founder and primary host of PaperABC on Bilibili, a popular series of research explanation videos that have been well-received by the community, attracting over 12,000 followers to date."
+        "bio": "Ye Wang is currently a third-year Ph.D. student in the ICL Group at the School of Artificial Intelligence, Jilin University, under the supervision of Associate Professor Rui Ma. He also receives mentorship from Research Scientist Yilin Wang at Adobe and Associate Professor Zili Yi at Nanjing University. His research primarily centers on personalized visual content creation, including image style transfer, image editing, image customization, video content generation, and 3D vision. He is dedicated to leveraging advanced artificial intelligence techniques to enable more personalized, flexible, and expressive visual content generation that caters to diverse user needs and creative expression. Ye Wang holds a Bachelor's degree from Dalian Maritime University and a Master's degree from the School of Computer Science at Jilin University. He has also gained valuable practical experience through internships at JD.com, Baidu, and Kunlun Tech. In addition to his academic work, he is the founder and primary host of PaperABC on Bilibili, a popular series of research explanation videos that have been well-received by the community, attracting over 12,000 followers to date. Welcome to my research homepage: https://wangyephd.github.io/"
     },
     "焦树扬": {
         "name": "焦树扬",
@@ -537,7 +537,7 @@ const memberProfiles = {
             "Deep Learning."
         ],
         "email": "mhassandev@gmail.com",
-        "bio": "Doctor of Engineering in Computer Applied Technology"
+        "bio": "https://orcid.org/0000-0001-8303-8351"
     },
     "杨森": {
         "name": "杨森",
@@ -589,7 +589,7 @@ const memberProfiles = {
             "大数据管理与分析"
         ],
         "email": "wenzheyang@hhu.edu.cn",
-        "bio": "河海大学老师"
+        "bio": "河海大学老师 Welcome to my homepage: https://yangwenzhe.github.io/"
     },
     "耿昭阳": {
         "name": "耿昭阳",
