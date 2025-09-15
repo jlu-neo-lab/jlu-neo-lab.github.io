@@ -2,7 +2,7 @@
 const newsData = {
     'team-expansion-2025': {
         title: {
-            en: 'The official website of NeO lab has launched!! has launched!!',
+            en: 'The official website of NeO lab has launched!!',
             zh: 'NeO实验室的官方网站上线啦！！'
         },
         date: '2025-01-15',
