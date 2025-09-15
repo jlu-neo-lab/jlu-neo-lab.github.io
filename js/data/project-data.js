@@ -2,24 +2,24 @@
 const projectDetails = {
     'smart-scheduling': {
         name: {
-            en: 'Intelligent Workshop Scheduling Optimization System',
-            zh: '智能车间调度优化系统'
+            en: 'Coming Soon',
+            zh: '即将到来'
         },
         description: {
-            en: 'This project develops an intelligent workshop scheduling optimization system based on deep reinforcement learning and graph neural networks. The system can process complex job scheduling problems in real-time, significantly improving production efficiency and resource utilization.',
-            zh: '本项目基于深度强化学习和图神经网络，开发了一套智能车间调度优化系统。该系统能够实时处理复杂的作业调度问题，显著提高生产效率和资源利用率。'
+            en: 'Coming Soon',
+            zh: '即将到来'
         },
         technologies: ['Deep Reinforcement Learning', 'Graph Neural Networks', 'Python', 'TensorFlow', 'PyTorch'],
         status: 'Active',
         duration: '2024-Present',
-        team: ['Prof. You Zhou', 'Peng Zhao', 'Xuan Wu', 'Research Collaborators'],
+        team: ['Prof. You Zhou''],
         achievements: [
-            { en: 'Deployed in 5+ manufacturing companies', zh: '已在5家以上制造企业部署应用' },
-            { en: '30% improvement in production efficiency', zh: '生产效率提升30%' },
-            { en: 'Real-time scheduling with <100ms latency', zh: '实时调度延迟小于100毫秒' }
+            { en: '..', zh: '..' },
+            { en: '..', zh: '..' },
+            { en: '..', zh: '..' }
         ],
-        github: 'https://github.com/lamdaLab/smart-scheduling',
-        demo: 'https://demo.lamdaLab.com/scheduling'
+        github: '.',
+        demo: '.'
     },
     'diffusion-solver': {
         name: {
