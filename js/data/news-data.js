@@ -104,28 +104,7 @@ const newsData = {
         },
         image: 'https://via.placeholder.com/600x300',
         tags: ['Infrastructure', 'GPU', 'Computing', 'Research']
-    },
-    'student-awards': {
-        title: {
-            en: 'Students Receive Outstanding Research Awards',
-            zh: '学生获得杰出研究奖'
-        },
-        date: '2024-12-10',
-        category: {
-            en: 'Awards',
-            zh: '获奖信息'
-        },
-        summary: {
-            en: 'Several NeO Lab students have been recognized with prestigious awards for their exceptional research contributions.',
-            zh: 'Lambda实验室的几名学生因其杰出的研究贡献而获得了著名奖项。'
-        },
-        content: {
-            en: 'We are proud to announce that several of our graduate students have received prestigious awards for their research excellence. These recognitions highlight the quality of research being conducted in our lab and the dedication of our students to advancing the field of artificial intelligence and optimization.',
-            zh: '我们自豪地宣布，我们的几名研究生因其研究卓越而获得了著名奖项。这些认可突出了我们实验室进行的研究质量以及我们学生对推进人工智能和优化领域的奉献精神。'
-        },
-        image: 'https://via.placeholder.com/600x300',
-        tags: ['Awards', 'Students', 'Recognition', 'Excellence']
-    }
+    }, 
 };
 
 // 导出数据
