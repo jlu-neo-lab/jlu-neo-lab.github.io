@@ -20,48 +20,6 @@ const newsData = {
         },
         image: 'https://via.placeholder.com/600x300',
         tags: ['Team', 'PhD Students', 'Welcome']
-    },
-    'kdd-paper-accepted': {
-        title: {
-            en: 'Paper Accepted at KDD 2025',
-            zh: 'KDD 2025论文被接收'
-        },
-        date: '2025-01-10',
-        category: {
-            en: 'Research Achievement',
-            zh: '研究成果'
-        },
-        summary: {
-            en: 'Our research on diffusion-based combinatorial optimization has been accepted at KDD 2025, marking another milestone in our AI research.',
-            zh: '我们关于基于扩散模型的组合优化研究被KDD 2025接收，这是我们人工智能研究的又一个里程碑。'
-        },
-        content: {
-            en: 'We are proud to announce that our paper "An Efficient Diffusion-based Non-Autoregressive Solver for Traveling Salesman Problem" has been accepted at KDD 2025. This work represents a significant advancement in solving combinatorial optimization problems using diffusion models, achieving 10x faster inference while maintaining solution quality.',
-            zh: '我们自豪地宣布，我们的论文《基于扩散模型的高效非自回归旅行商问题求解器》被KDD 2025接收。这项工作代表了使用扩散模型解决组合优化问题的重大进展，在保持解质量的同时实现了10倍的推理速度提升。'
-        },
-        image: 'https://via.placeholder.com/600x300',
-        tags: ['KDD', 'Publication', 'Diffusion Models', 'TSP']
-    },
-    'industry-collaboration': {
-        title: {
-            en: 'New Industry Partnership Announced',
-            zh: '宣布新的产业合作伙伴关系'
-        },
-        date: '2025-01-05',
-        category: {
-            en: 'Partnership',
-            zh: '合作伙伴'
-        },
-        summary: {
-            en: 'NeO Lab partners with leading technology companies to advance AI applications in smart manufacturing and logistics.',
-            zh: 'Lambda实验室与领先的科技公司合作，推进人工智能在智能制造和物流领域的应用。'
-        },
-        content: {
-            en: 'We are excited to announce new partnerships with several industry leaders in manufacturing and logistics. These collaborations will focus on applying our research in reinforcement learning and optimization to real-world production scheduling and route planning challenges. The partnerships will provide valuable datasets and practical validation opportunities for our algorithms.',
-            zh: '我们很高兴宣布与制造业和物流业的几家行业领导者建立新的合作伙伴关系。这些合作将专注于将我们在强化学习和优化方面的研究应用于现实世界的生产调度和路径规划挑战。这些合作伙伴关系将为我们的算法提供宝贵的数据集和实际验证机会。'
-        },
-        image: 'https://via.placeholder.com/600x300',
-        tags: ['Industry', 'Collaboration', 'Manufacturing', 'Logistics']
     }
 };
 
