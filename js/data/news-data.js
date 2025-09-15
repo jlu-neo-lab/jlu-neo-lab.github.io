@@ -62,28 +62,7 @@ const newsData = {
         },
         image: 'https://via.placeholder.com/600x300',
         tags: ['Industry', 'Collaboration', 'Manufacturing', 'Logistics']
-    },
-    'conference-presentation': {
-        title: {
-            en: 'Outstanding Presentation at AAAI 2024',
-            zh: 'AAAI 2024杰出报告'
-        },
-        date: '2024-12-20',
-        category: {
-            en: 'Conference',
-            zh: '会议报告'
-        },
-        summary: {
-            en: 'Our team delivered an outstanding presentation on vehicle routing problems at AAAI 2024, receiving positive feedback from the research community.',
-            zh: '我们的团队在AAAI 2024上就车辆路径问题发表了杰出报告，获得了研究界的积极反馈。'
-        },
-        content: {
-            en: 'At AAAI 2024, our research on "Distilling autoregressive models to obtain high-performance non-autoregressive solvers for vehicle routing problems" was presented to an enthusiastic audience. The presentation highlighted our novel approach to knowledge distillation in combinatorial optimization, sparking interesting discussions with fellow researchers about future applications and extensions.',
-            zh: '在AAAI 2024上，我们关于"蒸馏自回归模型以获得车辆路径问题高性能非自回归求解器"的研究向热情的观众进行了展示。报告重点介绍了我们在组合优化中知识蒸馏的新方法，引发了与同行研究人员关于未来应用和扩展的有趣讨论。'
-        },
-        image: 'https://via.placeholder.com/600x300',
-        tags: ['AAAI', 'Presentation', 'VRP', 'Knowledge Distillation']
-    } 
+    }
 };
 
 // 导出数据
