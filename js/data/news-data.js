@@ -83,28 +83,7 @@ const newsData = {
         },
         image: 'https://via.placeholder.com/600x300',
         tags: ['AAAI', 'Presentation', 'VRP', 'Knowledge Distillation']
-    },
-    'lab-equipment-upgrade': {
-        title: {
-            en: 'Laboratory Computing Infrastructure Upgrade',
-            zh: '实验室计算基础设施升级'
-        },
-        date: '2024-12-15',
-        category: {
-            en: 'Infrastructure',
-            zh: '基础设施'
-        },
-        summary: {
-            en: 'NeO Lab has upgraded its computing infrastructure with new high-performance GPUs to support large-scale machine learning research.',
-            zh: 'Lambda实验室升级了计算基础设施，配备了新的高性能GPU以支持大规模机器学习研究。'
-        },
-        content: {
-            en: 'We have significantly enhanced our computational capabilities with the installation of state-of-the-art GPU clusters. This upgrade will enable us to tackle more complex optimization problems, train larger neural networks, and accelerate our research in deep learning and AI. The new infrastructure supports both individual research projects and collaborative efforts across multiple research areas.',
-            zh: '我们通过安装最先进的GPU集群显著增强了计算能力。这次升级将使我们能够处理更复杂的优化问题，训练更大的神经网络，并加速我们在深度学习和人工智能方面的研究。新的基础设施支持个人研究项目和跨多个研究领域的合作努力。'
-        },
-        image: 'https://via.placeholder.com/600x300',
-        tags: ['Infrastructure', 'GPU', 'Computing', 'Research']
-    }, 
+    } 
 };
 
 // 导出数据
