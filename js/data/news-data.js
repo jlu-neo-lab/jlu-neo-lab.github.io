@@ -1,11 +1,32 @@
 // 实验室新闻资讯数据
 const newsData = {
+     'NeurIPS2025': {
+        title: {
+            en: 'One paper got accepted by NeurIPS’25',
+            zh: '我们的一篇论文被NeurIPS’25接受！'
+        },
+        date: '2025-09-19',
+        category: {
+            en: 'Academic News',
+            zh: '学术动态'
+        },
+        summary: {
+            en: 'Congratulations to Jiaqi on having the paper accepted to NeurIPS’25!',
+            zh: '祝贺佳琦的论文被NeurIPS’25接受！'
+        },
+        content: {
+            en: 'Congratulations to Jiaqi on having the paper accepted to NeurIPS’25!',
+            zh: '祝贺佳琦的论文被NeurIPS’25接受！'
+        },
+        image: 'https://via.placeholder.com/600x300',
+        tags: ['Team',  'Welcome']
+    }
     'team-expansion-2025': {
         title: {
             en: 'The official website of NeO lab has launched!!',
             zh: 'NeO实验室的官方网站上线啦！！'
         },
-        date: '2025-01-15',
+        date: '2025-09-15',
         category: {
             en: 'Team News',
             zh: '团队动态'
