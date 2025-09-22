@@ -9,7 +9,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "xiaoyb21@mails.jlu.edu.cn",
+        "email": "xiaoyb21 [at] mails.jlu.edu.cn",
         "bio": "OOM -_-! Welcome to my research homepage: https://xybfight.github.io/"
     },
     "吴翾": {
@@ -21,7 +21,7 @@ const memberProfiles = {
             "Large Language Models",
             "Evolutionary Computation"
         ],
-        "email": "xuanwu7@outlook.com",
+        "email": "xuanwu7 [at] outlook.com",
         "bio": "Xuan Wu received his B.Sc. degree from the College of Computer Science and Technology, Jilin University, China, in 2020. From November 2023 to November 2024, he was a visiting student at the College of Computing and Data Science, Nanyang Technological University, Singapore. He is currently pursuing his Ph.D. degree at Jilin University. Welcome to my research homepage: https://wuuu110.github.io/"
     },
     "赵鹏": {
@@ -32,7 +32,7 @@ const memberProfiles = {
             "Neural Combinatorial Optimization",
             "Scheduling problem."
         ],
-        "email": "pengzhao23@mails.jlu.edu.cn",
+        "email": "pengzhao23 [at] mails.jlu.edu.cn",
         "bio": "Peng Zhao received his B.Sc. degree from the College of Software Engineering, Jilin University, China, in 2021."
     },
     "李沅书": {
@@ -42,7 +42,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "lys24@mails.jlu.edu.cn",
+        "email": "lys24 [at] mails.jlu.edu.cn",
         "bio": "Yuanshu Li received her B.Sc. degree from the College of Computer Science and Technology, Jilin University, China, in 2021, and received her M.S. degree from the College of Computer Science and Technology, Jilin University, China, in 2024"
     },
     "尚泽宽": {
@@ -54,7 +54,7 @@ const memberProfiles = {
             "EDA",
             "​Bioinformatics"
         ],
-        "email": "shangzk23@mails.jlu.edu.cn",
+        "email": "shangzk23 [at] mails.jlu.edu.cn",
         "bio": "Zekuan Shang received a B.Eng. in Software Engineering and a B.M. in Business Administration (double degree) from Jilin University, China, in 2022."
     },
     "李子柔": {
@@ -64,7 +64,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "zirou23@mails.jlu.edu.cn",
+        "email": "zirou23 [at] mails.jlu.edu.cn",
         "bio": "李子柔是NeO Lab团队的重要成员。"
     },
     "刘瑞恺": {
@@ -74,7 +74,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "liurk23@mails.jlu.edu.cn",
+        "email": "liurk23 [at] mails.jlu.edu.cn",
         "bio": "刘瑞恺是NeO Lab团队的重要成员。"
     },
     "王天放": {
@@ -85,7 +85,7 @@ const memberProfiles = {
             "Neural Combinatorial Optimization",
             "Generative Flow Network"
         ],
-        "email": "wangtf23@mails.jlu.edu.cn",
+        "email": "wangtf23 [at] mails.jlu.edu.cn",
         "bio": "王天放是NeO Lab团队的重要成员。"
     },
     "吴岳松": {
@@ -95,7 +95,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "1377030423@qq.com",
+        "email": "1377030423 [at] qq.com",
         "bio": "吴岳松是NeO Lab团队的重要成员。"
     },
     "李昀朔": {
@@ -105,7 +105,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "945993769@qq.com",
+        "email": "945993769 [at] qq.com",
         "bio": "李昀朔是NeO Lab团队的重要成员。"
     },
     "迟敏言": {
@@ -115,7 +115,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "chimy23@mails.jlu.edu.cn",
+        "email": "chimy23 [at] mails.jlu.edu.cn",
         "bio": "迟敏言是NeO Lab团队的重要成员。"
     },
     "王贺桥": {
@@ -125,7 +125,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "2154670373@qq.com",
+        "email": "2154670373 [at] qq.com",
         "bio": "王贺桥是NeO Lab团队的重要成员。"
     },
     "史浩霖": {
@@ -135,7 +135,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "hlshi23@mails.jlu.edu.cn",
+        "email": "hlshi23 [at] mails.jlu.edu.cn",
         "bio": "史浩霖是NeO Lab团队的重要成员。"
     },
     "薛健": {
@@ -145,7 +145,7 @@ const memberProfiles = {
         "researchInterests": [
             "Cv"
         ],
-        "email": "xuejian23@mails.jlu.edu.cn",
+        "email": "xuejian23 [at] mails.jlu.edu.cn",
         "bio": "薛健是NeO Lab团队的重要成员。"
     },
     "汪伟城": {
@@ -155,7 +155,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "1420767429@qq.com",
+        "email": "1420767429 [at] qq.com",
         "bio": "汪伟城是NeO Lab团队的重要成员。"
     },
     "吴赫铭": {
@@ -165,7 +165,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "wuhm23@mails.jlu.edu.cn",
+        "email": "wuhm23 [at] mails.jlu.edu.cn",
         "bio": "吴赫铭是NeO Lab团队的重要成员。"
     },
     "张宇尧": {
@@ -175,7 +175,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "362456320@qq.com",
+        "email": "362456320 [at] qq.com",
         "bio": "张宇尧是NeO Lab团队的重要成员。"
     },
     "王大鹏": {
@@ -185,7 +185,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "wangdp23@mails.jlu.edu.cn",
+        "email": "wangdp23 [at] mails.jlu.edu.cn",
         "bio": "王大鹏是NeO Lab团队的重要成员。"
     },
     "钱俊杰": {
@@ -195,7 +195,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "1197349043@qq.com",
+        "email": "1197349043 [at] qq.com",
         "bio": "钱俊杰是NeO Lab团队的重要成员。"
     },
     "宋举鹏": {
@@ -205,7 +205,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "jpsong23@mails.jlu.edu.cn",
+        "email": "jpsong23 [at] mails.jlu.edu.cn",
         "bio": "宋举鹏是NeO Lab团队的重要成员。"
     },
     "彭杰": {
@@ -216,7 +216,7 @@ const memberProfiles = {
             "Large Language Models",
             "AI Infra"
         ],
-        "email": "hi@nohup.life",
+        "email": "hi [at] nohup.life",
         "bio": "https://blog.nohup.life"
     },
     "曹智宇": {
@@ -227,7 +227,7 @@ const memberProfiles = {
             "Large Language Models",
             "RAG"
         ],
-        "email": "caozy73@foxmail.com",
+        "email": "caozy73 [at] foxmail.com",
         "bio": "种一棵树最好的时间是十年前，其次是现在。"
     },
     "王拓淤": {
@@ -239,7 +239,7 @@ const memberProfiles = {
             "Large Language Models",
             "Evolutionary Computation"
         ],
-        "email": "1074126794@qq.com",
+        "email": "1074126794 [at] qq.com",
         "bio": "王拓淤是NeO Lab团队的重要成员。"
     },
     "曾声军": {
@@ -249,7 +249,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Vision"
         ],
-        "email": "sj_zeng@163.com",
+        "email": "sj_zeng [at] 163.com",
         "bio": "曾声军是NeO Lab团队的重要成员。"
     },
     "王佳琦": {
@@ -260,7 +260,7 @@ const memberProfiles = {
             "Neural Combinatorial Optimization",
             "Scheduling problem."
         ],
-        "email": "1767799741@qq.com",
+        "email": "1767799741 [at] qq.com",
         "bio": "王佳琦是NeO Lab团队的重要成员。"
     },
     "张传卓": {
@@ -270,7 +270,7 @@ const memberProfiles = {
         "researchInterests": [
             "3D Human Pose Estimation"
         ],
-        "email": "604268889@qq.com",
+        "email": "604268889 [at] qq.com",
         "bio": "张传卓是NeO Lab团队的重要成员。"
     },
     "孙淑静": {
@@ -280,7 +280,7 @@ const memberProfiles = {
         "researchInterests": [
             "cv"
         ],
-        "email": "sunsj0427@126.com",
+        "email": "sunsj0427 [at] 126.com",
         "bio": "孙淑静是NeO Lab团队的重要成员。"
     },
     "马婕": {
@@ -290,7 +290,7 @@ const memberProfiles = {
         "researchInterests": [
             "NCO"
         ],
-        "email": "mkryptonite@163.com",
+        "email": "mkryptonite [at] 163.com",
         "bio": "事已至此 先休息吧"
     },
     "曹瑞": {
@@ -300,7 +300,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "moline2002@163.com",
+        "email": "moline2002 [at] 163.com",
         "bio": "我认为休息一下是合法的"
     },
     "齐开放": {
@@ -310,7 +310,7 @@ const memberProfiles = {
         "researchInterests": [
             "Neural Combinatorial Optimization"
         ],
-        "email": "2811099393@qq.com",
+        "email": "2811099393 [at] qq.com",
         "bio": "齐开放是NeO Lab团队的重要成员。"
     },
     "张毅宇": {
@@ -321,7 +321,7 @@ const memberProfiles = {
             "Large Language Models",
             "RAG"
         ],
-        "email": "592907083@qq.com",
+        "email": "592907083 [at] qq.com",
         "bio": "张毅宇是NeO Lab团队的重要成员。"
     },
     "姜苏桐": {
@@ -331,7 +331,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "1269369038@qq.com",
+        "email": "1269369038 [at] qq.com",
         "bio": "姜苏桐是NeO Lab团队的重要成员。"
     },
     "李福硕": {
@@ -341,7 +341,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "2294566801@qq.com",
+        "email": "2294566801 [at] qq.com",
         "bio": "李福硕是NeO Lab团队的重要成员。"
     },
     "申鹏赟": {
@@ -351,7 +351,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "2478860848@qq.com",
+        "email": "2478860848 [at] qq.com",
         "bio": "申鹏赟是NeO Lab团队的重要成员。"
     },
     "王艳": {
@@ -361,7 +361,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "2631241987@qq.com",
+        "email": "2631241987 [at] qq.com",
         "bio": "王艳是NeO Lab团队的重要成员。"
     },
     "张海洋": {
@@ -371,7 +371,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "haiyangz25@mails.jlu.edu.cn",
+        "email": "haiyangz25 [at] mails.jlu.edu.cn",
         "bio": "张海洋是NeO Lab团队的重要成员。"
     },
     "张校彭": {
@@ -381,7 +381,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "2436267351@qq.com",
+        "email": "2436267351 [at] qq.com",
         "bio": "张校彭是NeO Lab团队的重要成员。"
     },
     "姜轶凡": {
@@ -391,7 +391,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "yfjiang25@mails.jlu.edu.cn",
+        "email": "yfjiang25 [at] mails.jlu.edu.cn",
         "bio": "姜轶凡是NeO Lab团队的重要成员。"
     },
     "张伟怡": {
@@ -401,7 +401,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "zwy25@mails.jlu.edu.cn",
+        "email": "zwy25 [at] mails.jlu.edu.cn",
         "bio": "张伟怡是NeO Lab团队的重要成员。"
     },
     "王世瑾": {
@@ -411,7 +411,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "1720044858@qq.com",
+        "email": "1720044858 [at] qq.com",
         "bio": "王世瑾是NeO Lab团队的重要成员。"
     },
     "周时": {
@@ -421,7 +421,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "zhoushishuai666@gmail.com",
+        "email": "zhoushishuai666 [at] gmail.com",
         "bio": "周时是NeO Lab团队的重要成员。"
     },
     "樊明磊": {
@@ -431,7 +431,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "862018985@qq.com",
+        "email": "862018985 [at] qq.com",
         "bio": "樊明磊是NeO Lab团队的重要成员。"
     },
     "林一豪": {
@@ -441,7 +441,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "2971665141@qq.com",
+        "email": "2971665141 [at] qq.com",
         "bio": "林一豪是NeO Lab团队的重要成员。"
     },
     "李佳锴": {
@@ -451,7 +451,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "1614509444@qq.com",
+        "email": "1614509444 [at] qq.com",
         "bio": "李佳锴是NeO Lab团队的重要成员。"
     },
     "王浩": {
@@ -461,7 +461,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "496190863@qq.com",
+        "email": "496190863 [at] qq.com",
         "bio": "王浩是NeO Lab团队的重要成员。"
     },
     "肖堃": {
@@ -471,7 +471,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "1395623341@qq.com",
+        "email": "1395623341 [at] qq.com",
         "bio": "肖堃是NeO Lab团队的重要成员。"
     },
     "张朔榕": {
@@ -481,7 +481,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "shuorong20@163.com",
+        "email": "shuorong20 [at] 163.com",
         "bio": "张朔榕是NeO Lab团队的重要成员。"
     },
     "王冶": {
@@ -491,7 +491,7 @@ const memberProfiles = {
         "researchInterests": [
             "AIGC MLLM"
         ],
-        "email": "yewang22@mails.jlu.edu.cn",
+        "email": "yewang22 [at] mails.jlu.edu.cn",
         "bio": "Ye Wang is currently a third-year Ph.D. student in the ICL Group at the School of Artificial Intelligence, Jilin University, under the supervision of Associate Professor Rui Ma. He also receives mentorship from Research Scientist Yilin Wang at Adobe and Associate Professor Zili Yi at Nanjing University. His research primarily centers on personalized visual content creation, including image style transfer, image editing, image customization, video content generation, and 3D vision. He is dedicated to leveraging advanced artificial intelligence techniques to enable more personalized, flexible, and expressive visual content generation that caters to diverse user needs and creative expression. Ye Wang holds a Bachelor's degree from Dalian Maritime University and a Master's degree from the School of Computer Science at Jilin University. He has also gained valuable practical experience through internships at JD.com, Baidu, and Kunlun Tech. In addition to his academic work, he is the founder and primary host of PaperABC on Bilibili, a popular series of research explanation videos that have been well-received by the community, attracting over 12,000 followers to date. Welcome to my research homepage: https://wangyephd.github.io/"
     },
     "焦树扬": {
@@ -501,7 +501,7 @@ const memberProfiles = {
         "researchInterests": [
             "GNN AI4Science"
         ],
-        "email": "jiaosy25@mails.jlu.edu.cn",
+        "email": "jiaosy25 [at] mails.jlu.edu.cn",
         "bio": "Shuyang Jiao received his B.Sc. degree from Harbin University of Science and Technology, China, in 2021, and his M.Sc. degree from Jilin University, China, in 2024. He is currently pursuing his Ph.D. degree at Jilin University (since 2025)."
     },
     "王依章": {
@@ -521,7 +521,7 @@ const memberProfiles = {
         "researchInterests": [
             "Computer Science"
         ],
-        "email": "lebron_forchampion@163.com",
+        "email": "lebron_forchampion [at] 163.com",
         "bio": "2024年硕士毕业，已工作，做Java开发"
     },
     "MuhammadHassan": {
@@ -536,7 +536,7 @@ const memberProfiles = {
             "Machine Learning",
             "Deep Learning."
         ],
-        "email": "mhassandev@gmail.com",
+        "email": "mhassandev [at] gmail.com",
         "bio": "https://orcid.org/0000-0001-8303-8351"
     },
     "杨森": {
@@ -546,7 +546,7 @@ const memberProfiles = {
         "researchInterests": [
             "生物信息"
         ],
-        "email": "ys@cczu.edu.cn",
+        "email": "ys [at] cczu.edu.cn",
         "bio": "常州大学老师"
     },
     "郭泽洋": {
@@ -556,7 +556,7 @@ const memberProfiles = {
         "researchInterests": [
             "CV"
         ],
-        "email": "2272214412@qq.com",
+        "email": "2272214412 [at] qq.com",
         "bio": "郭泽洋是NeO Lab团队的重要成员。"
     },
     "郭茗涵": {
@@ -567,7 +567,7 @@ const memberProfiles = {
             "语音识别",
             "声纹识别"
         ],
-        "email": "mhguo_best@163.com",
+        "email": "mhguo_best [at] 163.com",
         "bio": "兰州城市学院老师"
     },
     "田新亮": {
@@ -578,7 +578,7 @@ const memberProfiles = {
             "组合优化",
             "整车控制"
         ],
-        "email": "xinliangt@qq.com",
+        "email": "xinliangt [at] qq.com",
         "bio": "中国重汽集团，整车控制研究。"
     },
     "杨文哲": {
@@ -588,7 +588,7 @@ const memberProfiles = {
         "researchInterests": [
             "大数据管理与分析"
         ],
-        "email": "wenzheyang@hhu.edu.cn",
+        "email": "wenzheyang [at] hhu.edu.cn",
         "bio": "河海大学老师 Welcome to my homepage: https://yangwenzhe.github.io/"
     },
     "耿昭阳": {
@@ -598,7 +598,7 @@ const memberProfiles = {
         "researchInterests": [
             "大数据"
         ],
-        "email": "306671201@qq.com",
+        "email": "306671201 [at] qq.com",
         "bio": "耿昭阳是NeO Lab团队的重要成员。"
     }
 };
