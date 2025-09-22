@@ -30,7 +30,7 @@ skippy1010177@gmail.com
 
 #### 1. 更新HTML文件
 
-在 `LamdaLab.html` 中找到对应的学生类型section，添加新的成员卡片：
+在 `index.html` 中找到对应的学生类型section，添加新的成员卡片：
 
 ```html
 <div class="member-card">
