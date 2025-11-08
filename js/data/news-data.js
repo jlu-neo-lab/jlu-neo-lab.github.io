@@ -1,5 +1,27 @@
 // 实验室新闻资讯数据
 const newsData = {
+     'AAAI2026': {
+        title: {
+            en: 'One paper got accepted by AAAI 2026',
+            zh: '我们的一篇论文被AAAI 2026接受！'
+        },
+        date: '2025-11-8',
+        category: {
+            en: 'Academic News',
+            zh: '学术动态'
+        },
+        summary: {
+            en: 'Congratulations to Yuanshu on having the paper accepted to AAAI 2026!',
+            zh: '祝贺沅书的论文被AAAI 2026接受！'
+        },
+        content: {
+            en: 'Congratulations to Yuanshu on having the paper accepted to AAAI 2026!',
+            zh: '祝贺沅书的论文被AAAI 2026接受！'
+        },
+        image: 'https://via.placeholder.com/600x300',
+        tags: ['AAAI',  'NCO']
+    },
+     
      'NeurIPS2025': {
         title: {
             en: 'One paper got accepted by NeurIPS 2025',
