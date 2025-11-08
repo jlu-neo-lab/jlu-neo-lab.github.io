@@ -1,14 +1,24 @@
 // 论文详情数据
 const researchDetails = {
+  "flow": {
+    title:
+      "Efficient Few-Step Solution Generation via Discrete Flow Matching for Combinatorial Optimization",
+    venue: "AAAI",
+    date: "2026",
+    authors:
+      "Yuanshu Li, Di Wang, Wei Du, Xuan Wu, Peng Zhao, Yubin Xiao, You Zhou",
+    abstract: "Combinatorial optimization problems (COPs) are fundamental to many real-world applications, where efficiently producing high-quality solutions is critical. Recent advances in diffusion-based non-autoregressive models have reformulated solving COP as a generative process, achieving promising results. However, these methods still suffer from accumulated errors and high inference costs due to the multi-step stochastic denoising process. To address these issues, we propose EFLOCO, an efficient discrete flow matching method for solving COPs that learns structured and deterministic solution trajectories. EFLOCO replaces noise-driven updates with smooth and guided transitions, thereby improves inference stability and quality. Furthermore, we introduce an adaptive time-step scheduler that allocates more concentration to critical transition regions, enabling strong performance under few-step constraints. Experiments on standard TSP and ATSP benchmarks show that our method consistently outperforms both learning-based and heuristic baselines in terms of solution quality and inference speed.",
+    paperLink: ".",
+  },
   "memory": {
     title:
-      "Visual-Enhanced Multimodal Framework for Flexible Job Shop Scheduling Problem",
+      "Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling",
     venue: "NeurIPS",
     date: "2025",
     authors:
       "Jiaqi Wang, Zhiguang Cao, Peng Zhao, Rui Cao, Yubin Xiao, Yuan Jiang, You Zhou",
     abstract: "The rise of smart manufacturing under Industry 4.0 introduces mass customization and dynamic production, demanding more advanced and flexible scheduling techniques. The flexible job-shop scheduling problem (FJSP) has attracted significant attention due to its complex constraints and strong alignment with real-world production scenarios. Current deep reinforcement learning (DRL)-based approaches to FJSP predominantly employ constructive methods. While effective, they often fall short of reaching (near-)optimal solutions. In contrast, improvement-based methods iteratively explore the neighborhood of initial solutions and are more effective in approaching optimality. However, the flexible machine allocation in FJSP poses significant challenges to the application of this framework, including accurate state representation, effective policy learning, and efficient search strategies. To address these challenges, this paper proposes a Memory-enhanced Improvement Search framework with heterogeneous graph representation—MIStar. It employs a novel heterogeneous disjunctive graph that explicitly models the operation sequences on machines to accurately represent scheduling solutions. Moreover, a memory-enhanced heterogeneous graph neural network (MHGNN) is designed for feature extraction, leveraging historical trajectories to enhance the decision-making capability of the policy network. Finally, a parallel greedy search strategy is adopted to explore the solution space, enabling superior solutions with fewer iterations. Extensive experiments on synthetic data and public benchmarks demonstrate that MIStar significantly outperforms both traditional handcrafted improvement heuristics and state-of-the-art DRL-based constructive methods.",
-    paperLink: "https://example.com/paper1",
+    paperLink: "https://openreview.net/pdf/96181f1631a0b6949264366ad18fedfa77532f72.pdf",
   },
   "visual-fjsp": {
     title:
