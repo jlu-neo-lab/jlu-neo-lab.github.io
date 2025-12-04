@@ -1,5 +1,15 @@
 // 论文详情数据
 const researchDetails = {
+  "geld": {
+    title:
+      "GELD: A Unified Neural Model for Efficiently Solving Traveling Salesman Problems Across Different Scales",
+    venue: "Pattern Recognition",
+    date: "2026",
+    authors:
+      "Yubin Xiao, Di Wang, Rui Cao, Xuan Wu, Boyang Li, You Zhou",
+    abstract: "The Traveling Salesman Problem (TSP) is a well-known combinatorial optimization problem with broad real-world applications. Recent advancements in neural network-based TSP solvers have shown promising results. Nonetheless, these models often struggle to efficiently solve both small- and large-scale TSPs using the same set of pre-trained model parameters, limiting their practical utility. To address this issue, we introduce a novel neural TSP solver named GELD, built upon our proposed broad global assessment and refined local selection framework. Specifically, GELD integrates a lightweight Global-view Encoder (GE) with a heavyweight Local-view Decoder (LD) to enrich embedding representation while accelerating the decision-making process. Moreover, GE incorporates a novel low-complexity attention mechanism, allowing GELD to achieve low inference latency and scalability to larger-scale TSPs. Additionally, we propose a two-stage training strategy that utilizes training instances of different sizes to bolster GELD's generalization ability. Extensive experiments conducted on both synthetic and real-world datasets demonstrate that GELD outperforms seven state-of-the-art models considering both solution quality and inference speed. Furthermore, GELD can be employed as a post-processing method to significantly elevate the quality of the solutions derived by existing neural TSP solvers via spending affordable additional computing time. Notably, GELD is shown as capable of solving TSPs with up to 744,710 nodes, first-of-its-kind to solve this large size TSP without relying on divide-and-conquer strategies to the best of our knowledge.",
+    paperLink: "https://arxiv.org/abs/2506.06634",
+  },
   "flow": {
     title:
       "Efficient Few-Step Solution Generation via Discrete Flow Matching for Combinatorial Optimization",
