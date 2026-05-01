@@ -1,5 +1,15 @@
 // 论文详情数据
 const researchDetails = {
+  "spaef": {
+    title:
+      "SpaEF: Spatially Resolved Transcriptomics Data Element-Wise Denoising Framework Powered by Large Models",
+    venue: "ICML",
+    date: "2026",
+    authors:
+      "Zekuan Shang, Xiaosong Han, Liupu Wang, Wei Du, Peng Zhao, Yuanshu Li, Yubin Xiao, Xuan Wu, You Zhou",
+    abstract: "For denoising Spatially Resolved Transcriptomics (SRT) data, existing methods often construct spot and gene graphs to model inter-spot and inter-gene relationships, respectively. However, these methods often introduce spurious similarity biases among spots when constructing the spot graph and fail to capture nonlinear relationships among genes when constructing the gene graph. Moreover, ineffective graph fusion strategies further bottleneck denoising performance. To address these challenges, we propose SpaEF, which innovatively constructs spot and gene graphs with two Large Models (LMs) to inject prior knowledge for mitigating biases and capture nonlinear relationships, and then fuses them with the proposed element-wise graph autoencoder. As far as we know, SpaEF is the first SRT denoising method that utilizes pre-trained LMs to construct spot and gene graphs. Experiments on four real-world datasets with corresponding downstream tasks demonstrate that SpaEF not only outperforms SOTA denoising methods in accuracy but also exhibits strong robustness across tasks.",
+    paperLink: ".",
+  },
   "geld": {
     title:
       "GELD: A Unified Neural Model for Efficiently Solving Traveling Salesman Problems Across Different Scales",
