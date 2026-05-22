@@ -1,5 +1,15 @@
 // 论文详情数据
 const researchDetails = {
+  "deco": {
+    title:
+      "Learning to Handle Constrained Routing Problems From a Decoupling Perspective",
+    venue: "KDD",
+    date: "2026",
+    authors:
+      "Rui Cao, Zhiguang Cao, Yihan Huang, Jiaqi Wang, Yuan Jiang, Yubin Xiao, You Zhou",
+    abstract: "Neural Combinatorial Optimization (NCO) has emerged as a promising paradigm for solving Vehicle Routing Problems (VRPs) as an alternative to traditional heuristics. However, extending NCO to VRPs with complex constraints remains a significant challenge, as existing methods largely rely on hand-crafted feasibility masks, thereby bypassing the core difficulty of end-to-end constraint learning. In this paper, we define a critical property in constrained VRPs termed the Global Cascading Effect: myopic local decisions can irreversibly lead to the collapse of the future feasible space, resulting in severe constraint violations. We systematically analyze why the prevailing Heavy Encoder Light Decoder (HELD) paradigm, typically trained via reinforcement learning, fails to capture this effect, attributing the failure to three critical couplings: static architectural embeddings, ambiguous trajectory-level feedback, and entangled feature representations. To address these issues, we propose DeCo (Decoupled Constrained Optimization), a streamlined end-to-end framework designed to systematically dismantle these couplings. DeCo leverages a heavy decoder architecture to achieve real-time feasibility perception through step-wise re-embedding, incorporates dense supervised learning for precise credit assignment, and introduces a Decoupled Attention Block with a dual-stream structure to eliminate feature interference. Extensive experiments on complex constrained benchmarks, such as Traveling Salesman Problem with Time Windows (TSPTW) and with Draft Limits (TSPDL), demonstrate that DeCo achieves state-of-the-art (SOTA) performance under a pure end-to-end paradigm without any auxiliary masking mechanisms. Notably, while maintaining optimality comparable to the expert-level LKH solver, DeCo achieves an approximate 1,000x speedup, establishing a superior Pareto frontier for constrained combinatorial optimization problems",
+    paperLink: ".",
+  },
   "spaef": {
     title:
       "SpaEF: Spatially Resolved Transcriptomics Data Element-Wise Denoising Framework Powered by Large Models",
