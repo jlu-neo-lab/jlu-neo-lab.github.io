@@ -1,5 +1,16 @@
 // 论文详情数据
 const researchDetails = {
+  "echo": {
+    title:
+      "Efficient Neural Combinatorial Optimization Solver for the Min-max Heterogeneous Capacitated Vehicle Routing Problem",
+    venue: "Expert Systems with Applications",
+    date: "2026",
+    authors:
+      "Xuan Wu, Di Wang, Chunguo Wu, Kaifang Qi, Chunyan Miao, Yubin Xiao, Jian Zhang, You Zhou",
+    abstract: "Numerous Neural Combinatorial Optimization (NCO) solvers have been proposed to address Vehicle Routing Problems (VRPs). However, most of these solvers focus exclusively on single-vehicle VRP variants, overlooking the more realistic Min-Max Heterogeneous Capacitated Vehicle Routing Problem (MMHCVRP), which involves multiple vehicles. Existing MMHCVRP solvers typically select a vehicle and its next node to visit at each decoding step, but often make myopic decisions during decoding and overlook key properties of MMHCVRP, including local topological relationships, vehicle permutation invariance, and node symmetry, resulting in suboptimal performance. To better address these limitations, we propose ECHO, an efficient NCO solver. First, ECHO exploits the proposed dual-modality node encoder to capture local topological relationships among nodes. Subsequently, to mitigate myopic decisions, ECHO employs the proposed Parameter-Free Cross-Attention mechanism to prioritize the vehicle selected in the preceding decoding step. Finally, leveraging vehicle permutation invariance and node symmetry, we introduce a tailored data augment strategy for MMHCVRP to stabilize the Reinforcement Learning training process. To assess the performance of ECHO, we conduct extensive experiments. The experimental results demonstrate that ECHO outperforms state-of-the-art (SOTA) NCO solvers across varying numbers of vehicles and nodes, and exhibits well-performing generalization across both scales and distribution patterns. Finally, ablation studies validate the effectiveness of all proposed methods. ",
+    paperLink: ".",
+  },
+  
   "deco": {
     title:
       "Learning to Handle Constrained Routing Problems From a Decoupling Perspective",
