@@ -1,5 +1,16 @@
 // 论文详情数据
 const researchDetails = {
+ "echo": {
+    title:
+      "Neural combinatorial optimization algorithms for solving vehicle routing problems: A comprehensive survey with perspectives",
+    venue: "IEEE Transactions on Neural Networks and Learning Systems",
+    date: "2026",
+    authors:
+      "Xuan Wu, Lijie Wen, Yubin Xiao, Chunguo Wu, Yuesong Wu, Chaoyu Yu, Douglas L. Maskell, You Zhou, Di Wang",
+    abstract: "Although several surveys on Neural Combinatorial Optimization (NCO) solvers specifically designed to solve Vehicle Routing Problems (VRPs) have been conducted, they did not cover the state-of-the-art (SOTA) NCO solvers emerged recently. More importantly, to establish a comprehensive and up-to-date taxonomy of NCO solvers, we systematically review relevant publications and preprints, categorizing them into four distinct types, namely Learning to Construct, Learning to Improve, Learning to Predict-Once, and Learning to Predict-Multiplicity solvers. Subsequently, we present the inadequacies of the SOTA solvers, including poor generalization, incapability to solve large-scale VRPs, inability to address most types of VRP variants simultaneously, and difficulty in comparing these NCO solvers with the conventional Operations Research algorithms. Simultaneously, we discuss on-going efforts, identify open inadequacies, as well as propose promising and viable directions to overcome these inadequacies. Notably, existing efforts focus on only one or two of these inadequacies, with none attempting to address all of them concurrently. In addition, we compare the performance of representative NCO solvers from the Reinforcement, Supervised, and Unsupervised Learning paradigms across VRPs of varying scales. Finally, following the proposed taxonomy, we provide an accompanying web page as a live repository for NCO solvers. Through this survey and the live repository, we aim to foster further advancements in the NCO community.",
+    paperLink: "https://arxiv.org/abs/2406.00415",
+  },
+  
   "echo": {
     title:
       "Efficient Neural Combinatorial Optimization Solver for the Min-max Heterogeneous Capacitated Vehicle Routing Problem",
@@ -8,7 +19,7 @@ const researchDetails = {
     authors:
       "Xuan Wu, Di Wang, Chunguo Wu, Kaifang Qi, Chunyan Miao, Yubin Xiao, Jian Zhang, You Zhou",
     abstract: "Numerous Neural Combinatorial Optimization (NCO) solvers have been proposed to address Vehicle Routing Problems (VRPs). However, most of these solvers focus exclusively on single-vehicle VRP variants, overlooking the more realistic Min-Max Heterogeneous Capacitated Vehicle Routing Problem (MMHCVRP), which involves multiple vehicles. Existing MMHCVRP solvers typically select a vehicle and its next node to visit at each decoding step, but often make myopic decisions during decoding and overlook key properties of MMHCVRP, including local topological relationships, vehicle permutation invariance, and node symmetry, resulting in suboptimal performance. To better address these limitations, we propose ECHO, an efficient NCO solver. First, ECHO exploits the proposed dual-modality node encoder to capture local topological relationships among nodes. Subsequently, to mitigate myopic decisions, ECHO employs the proposed Parameter-Free Cross-Attention mechanism to prioritize the vehicle selected in the preceding decoding step. Finally, leveraging vehicle permutation invariance and node symmetry, we introduce a tailored data augment strategy for MMHCVRP to stabilize the Reinforcement Learning training process. To assess the performance of ECHO, we conduct extensive experiments. The experimental results demonstrate that ECHO outperforms state-of-the-art (SOTA) NCO solvers across varying numbers of vehicles and nodes, and exhibits well-performing generalization across both scales and distribution patterns. Finally, ablation studies validate the effectiveness of all proposed methods. ",
-    paperLink: ".",
+    paperLink: "https://www.sciencedirect.com/science/article/abs/pii/S0957417426021433",
   },
   
   "deco": {
@@ -29,7 +40,7 @@ const researchDetails = {
     authors:
       "Zekuan Shang, Xiaosong Han, Liupu Wang, Wei Du, Peng Zhao, Yuanshu Li, Yubin Xiao, Xuan Wu, You Zhou",
     abstract: "For denoising Spatially Resolved Transcriptomics (SRT) data, existing methods often construct spot and gene graphs to model inter-spot and inter-gene relationships, respectively. However, these methods often introduce spurious similarity biases among spots when constructing the spot graph and fail to capture nonlinear relationships among genes when constructing the gene graph. Moreover, ineffective graph fusion strategies further bottleneck denoising performance. To address these challenges, we propose SpaEF, which innovatively constructs spot and gene graphs with two Large Models (LMs) to inject prior knowledge for mitigating biases and capture nonlinear relationships, and then fuses them with the proposed element-wise graph autoencoder. As far as we know, SpaEF is the first SRT denoising method that utilizes pre-trained LMs to construct spot and gene graphs. Experiments on four real-world datasets with corresponding downstream tasks demonstrate that SpaEF not only outperforms SOTA denoising methods in accuracy but also exhibits strong robustness across tasks.",
-    paperLink: ".",
+    paperLink: "https://icml.cc/virtual/2026/poster/64156",
   },
   "geld": {
     title:
@@ -39,7 +50,7 @@ const researchDetails = {
     authors:
       "Yubin Xiao, Di Wang, Rui Cao, Xuan Wu, Boyang Li, You Zhou",
     abstract: "The Traveling Salesman Problem (TSP) is a well-known combinatorial optimization problem with broad real-world applications. Recent advancements in neural network-based TSP solvers have shown promising results. Nonetheless, these models often struggle to efficiently solve both small- and large-scale TSPs using the same set of pre-trained model parameters, limiting their practical utility. To address this issue, we introduce a novel neural TSP solver named GELD, built upon our proposed broad global assessment and refined local selection framework. Specifically, GELD integrates a lightweight Global-view Encoder (GE) with a heavyweight Local-view Decoder (LD) to enrich embedding representation while accelerating the decision-making process. Moreover, GE incorporates a novel low-complexity attention mechanism, allowing GELD to achieve low inference latency and scalability to larger-scale TSPs. Additionally, we propose a two-stage training strategy that utilizes training instances of different sizes to bolster GELD's generalization ability. Extensive experiments conducted on both synthetic and real-world datasets demonstrate that GELD outperforms seven state-of-the-art models considering both solution quality and inference speed. Furthermore, GELD can be employed as a post-processing method to significantly elevate the quality of the solutions derived by existing neural TSP solvers via spending affordable additional computing time. Notably, GELD is shown as capable of solving TSPs with up to 744,710 nodes, first-of-its-kind to solve this large size TSP without relying on divide-and-conquer strategies to the best of our knowledge.",
-    paperLink: "https://arxiv.org/abs/2506.06634",
+    paperLink: "https://www.sciencedirect.com/science/article/pii/S0031320325015286",
   },
   "flow": {
     title:
@@ -49,7 +60,7 @@ const researchDetails = {
     authors:
       "Yuanshu Li, Di Wang, Wei Du, Xuan Wu, Peng Zhao, Yubin Xiao, You Zhou",
     abstract: "Combinatorial optimization problems (COPs) are fundamental to many real-world applications, where efficiently producing high-quality solutions is critical. Recent advances in diffusion-based non-autoregressive models have reformulated solving COP as a generative process, achieving promising results. However, these methods still suffer from accumulated errors and high inference costs due to the multi-step stochastic denoising process. To address these issues, we propose EFLOCO, an efficient discrete flow matching method for solving COPs that learns structured and deterministic solution trajectories. EFLOCO replaces noise-driven updates with smooth and guided transitions, thereby improves inference stability and quality. Furthermore, we introduce an adaptive time-step scheduler that allocates more concentration to critical transition regions, enabling strong performance under few-step constraints. Experiments on standard TSP and ATSP benchmarks show that our method consistently outperforms both learning-based and heuristic baselines in terms of solution quality and inference speed.",
-    paperLink: ".",
+    paperLink: "https://ojs.aaai.org/index.php/AAAI/article/view/41035",
   },
   "memory": {
     title:
