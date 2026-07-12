@@ -1,6 +1,6 @@
 // 论文详情数据
 const researchDetails = {
- "echo": {
+ "survey": {
     title:
       "Neural combinatorial optimization algorithms for solving vehicle routing problems: A comprehensive survey with perspectives",
     venue: "IEEE Transactions on Neural Networks and Learning Systems",
