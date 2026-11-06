@@ -600,7 +600,191 @@ const memberProfiles = {
         ],
         "email": "306671201 [at] qq.com",
         "bio": "耿昭阳是NeO Lab团队的重要成员。"
+    },
+    "李元帅": {
+        "name": "李元帅",
+        "year": "2026 to now",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "18537962783@163.com",
+        "bio": ""
+    },
+    "陈诚": {
+        "name": "陈诚",
+        "year": "2026 to now",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "2361589848@qq.com",
+        "bio": ""
+    },
+    "刘羽森": {
+        "name": "刘羽森",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "yusen26@mails.jlu.edu.cn",
+        "bio": ""
+    },
+    "董丽馨": {
+        "name": "董丽馨",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "3552235172@qq.com",
+        "bio": ""
+    },
+    "张璐洋": {
+        "name": "张璐洋",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "luyang26@mails.jlu.edu.com",
+        "bio": ""
+    },
+    "郑新哲": {
+        "name": "郑新哲",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "zhengxz26@mails.jlu.edu.cn",
+        "bio": ""
+    },
+    "刘振超": {
+        "name": "刘振超",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "1148283519@qq.com",
+        "bio": ""
+    },
+    "马境遥": {
+        "name": "马境遥",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "majy26@mails.jlu.edu.cn",
+        "bio": ""
+    },
+    "付志敏": {
+        "name": "付志敏",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "fuzm26@mails.jlu.edu.cn",
+        "bio": ""
+    },
+    "张弘": {
+        "name": "张弘",
+        "year": "2026 to now",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "2687019045@qq.com",
+        "bio": ""
+    },
+    "姜汕霖": {
+        "name": "姜汕霖",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "jiangshanlin0323@163.com",
+        "bio": ""
+    },
+    "谢京龙": {
+        "name": "谢京龙",
+        "year": "2026 to now",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "1638096895@qq.com",
+        "bio": ""
+    },
+    "李壮": {
+        "name": "李壮",
+        "year": "2026 to now",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "307630800@qq.com",
+        "bio": ""
+    },
+    "刘名俊": {
+        "name": "刘名俊",
+        "year": "2026 to now",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "1282354268@qq.com",
+        "bio": ""
+    },
+    "欧力铭": {
+        "name": "欧力铭",
+        "year": "2026 to now",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "oulm26@mails.jlu.edu.com",
+        "bio": ""
+    },
+    "曹诗寒": {
+        "name": "曹诗寒",
+        "year": "2027",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [
+            "AI infra"
+        ],
+        "email": "CSH3193629443@outlook.com",
+        "bio": ""
+    },
+    "马宝彤": {
+        "name": "马宝彤",
+        "year": "2027",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "2183598820@qq.com",
+        "bio": ""
+    },
+    "吕文钦": {
+        "name": "吕文钦",
+        "year": "2027",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "15864304022@163.com",
+        "bio": ""
+    },
+    "黄廷思": {
+        "name": "黄廷思",
+        "year": "2027",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [
+            "Neural Combinatorial Optimization"
+        ],
+        "email": "3250913221@qq.com",
+        "bio": "悟已往之不谏 知来者之可追"
+    },
+    "张俪之": {
+        "name": "张俪之",
+        "year": "2027",
+        "department": "College of Computer Science and Technology",
+        "researchInterests": [],
+        "email": "2230276114@qq.com",
+        "bio": ""
+    },
+    "由诗佳": {
+        "name": "由诗佳",
+        "year": "2027",
+        "department": "College of Software",
+        "researchInterests": [],
+        "email": "3446216967@qq.com",
+        "bio": ""
+    },
+    "任少扬": {
+        "name": "任少扬",
+        "year": "2027",
+        "department": "College of Software",
+        "researchInterests": [
+            "后训练",
+            "ai agent"
+        ],
+        "email": "18155188007@163.com",
+        "bio": ""
     }
+
 };
 
 // 导出数据
