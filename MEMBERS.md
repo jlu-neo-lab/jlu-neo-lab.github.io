@@ -12,30 +12,16 @@
 
 | 姓名 | 在读时间 | 类别 |
 |---|---|---|
-| [Xuan Wu (吴翾)](static/avator/default.jpg) | 2022 to now | PhD Students |
-| [Peng Zhao (赵鹏)](static/avator/default.jpg) | 2023 to now | PhD Students |
+
 | [Yuanshu Li (李沅书)](static/avator/default.jpg) | 2024 to now | PhD Students |
 | [Zekuan Shang (尚泽宽)](static/avator/default.jpg) | 2025 to now | PhD Students |
+| [Tianfang Wang (王天放)](static/avator/wangtianfang.jpg) | 2026 to now | Master Students |
+| [Jingyao Ma (马境遥)](static/avator/default.jpg) | 2026 to now | Master Students |
 
 ## Master Students
 
 | 姓名 | 在读时间 | 类别 |
 |---|---|---|
-| [Tianfang Wang (王天放)](static/avator/wangtianfang.jpg) | 2023 to now | Master Students |
-| [Heqiao Wang (王贺桥)](static/avator/wangheqiao.jpg) | 2023 to now | Master Students |
-| [Jian Xue (薛健)](static/avator/default.jpg) | 2023 to now | Master Students |
-| [Zirou Li (李子柔)](static/avator/lizirou.jpg) | 2023 to now | Master Students |
-| [Junjie Qian (钱俊杰)](static/avator/qianjunjie.jpg) | 2023 to now | Master Students |
-| [Ruikai Liu (刘瑞恺)](static/avator/default.jpg) | 2023 to now | Master Students |
-| [Yuesong Wu (吴岳松)](static/avator/wuyuesong.jpg) | 2023 to now | Master Students |
-| [Yunshuo Li (李昀朔)](static/avator/default.jpg) | 2023 to now | Master Students |
-| [Minyan Chi (迟敏言)](static/avator/default.jpg) | 2023 to now | Master Students |
-| [Jupeng Song (宋举鹏)](static/avator/default.jpg) | 2023 to now | Master Students |
-| [Dapeng Wang (王大鹏)](static/avator/default.jpg) | 2023 to now | Master Students |
-| [Haolin Shi (史浩霖)](static/avator/shihaolin.jpg) | 2023 to now | Master Students |
-| [YuYao Zhang (张宇尧)](static/avator/zhangyuyao.jpg) | 2023 to now | Master Students |
-| [Heming Wu (吴赫铭)](static/avator/default.jpg) | 2023 to now | Master Students |
-| [Weicheng Wang (汪伟城)](static/avator/default.jpg) | 2023 to now | Master Students |
 | [Zhiyu Cao (曹智宇)](static/avator/caozhiyu.jpg) | 2024 to now | Master Students |
 | [Rui Cao (曹瑞)](static/avator/default.jpg) | 2024 to now | Master Students |
 | [Jie Peng (彭杰)](static/avator/pengjie.jpg) | 2024 to now | Master Students |
@@ -70,7 +56,6 @@
 | [Luyang Zhang (张璐洋)](static/avator/zhangluyang.jpg) | 2026 to now | Master Students |
 | [Xinzhe Zheng (郑新哲)](static/avator/default.jpg) | 2026 to now | Master Students |
 | [Zhenchao Liu (刘振超)](static/avator/default.jpg) | 2026 to now | Master Students |
-| [Jingyao Ma (马境遥)](static/avator/default.jpg) | 2026 to now | Master Students |
 | [Zhimin Fu (付志敏)](static/avator/default.jpg) | 2026 to now | Master Students |
 | [Hong Zhang (张弘)](static/avator/default.jpg) | 2026 to now | Master Students |
 | [Shanlin Jiang (姜汕霖)](static/avator/default.jpg) | 2026 to now | Master Students |
@@ -93,6 +78,8 @@
 | [Yizhang Wang (王依章)](static/avator/default.jpg) | 2016 to 2020 | PhD Alumni |
 | [Muhammad Hassan](static/avator/muhammad.jpg) | 2018 to 2022 | PhD Alumni |
 | [Yubin Xiao (肖钰彬)](static/avator/xiaoyubin.jpg) | 2021 to 2025 | PhD Alumni |
+| [Xuan Wu (吴翾)](static/avator/default.jpg) | 2022 to 2026 | PhD Alumni |
+| [Peng Zhao (赵鹏)](static/avator/default.jpg) | 2023 to 2026 | PhD Alumni |
 | [Sen Yang (杨森)](static/avator/default.jpg) | 2015 to 2018 | Master Alumni |
 | [Xinliang Tian (田新亮)](static/avator/default.jpg) | 2015 to 2018 | Master Alumni |
 | [Zhaoyang Geng (耿昭阳)](static/avator/default.jpg) | 2016 to 2019 | Master Alumni |
@@ -102,3 +89,17 @@
 | [Shuyang Jiao (焦树扬)](static/avator/default.jpg) | 2021 to 2024 | Master Alumni |
 | [Kunping Yu (于昆平)](static/avator/default.jpg) | 2021 to 2024 | Master Alumni |
 | [Zeyang Guo (郭泽洋)](static/avator/default.jpg) | 2021 to 2024 | Master Alumni |
+| [Heqiao Wang (王贺桥)](static/avator/wangheqiao.jpg) | 2023 to 2026 | Master Students |
+| [Jian Xue (薛健)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
+| [Zirou Li (李子柔)](static/avator/lizirou.jpg) | 2023 to 2026 | Master Students |
+| [Junjie Qian (钱俊杰)](static/avator/qianjunjie.jpg) | 2023 to 2026 | Master Students |
+| [Ruikai Liu (刘瑞恺)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
+| [Yuesong Wu (吴岳松)](static/avator/wuyuesong.jpg) | 2023 to 2026 | Master Students |
+| [Yunshuo Li (李昀朔)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
+| [Minyan Chi (迟敏言)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
+| [Jupeng Song (宋举鹏)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
+| [Dapeng Wang (王大鹏)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
+| [Haolin Shi (史浩霖)](static/avator/shihaolin.jpg) | 2023 to 2026 | Master Students |
+| [YuYao Zhang (张宇尧)](static/avator/zhangyuyao.jpg) | 2023 to 2026 | Master Students |
+| [Heming Wu (吴赫铭)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
+| [Weicheng Wang (汪伟城)](static/avator/default.jpg) | 2023 to 2026 | Master Students |
